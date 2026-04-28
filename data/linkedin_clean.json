@@ -1,0 +1,366 @@
+{
+  "name": "Chaitanya Malani",
+  "headline": "Automation Engineer @ SCOR | AWS Certified Developer Associate | Software Engineer | FullStack Developer",
+  "location": "Paris, France",
+  "about": "I am a Software Engineer with a strong focus on Cloud Computing, AI/ML, and Automation Engineering. I am currently completing my Master’s in Computer Science at EPITA, Paris, alongside my end-of-studies internship at SCOR Paris as an Automation Engineer. My work spans data pipeline automation, backend reliability, and end-to-end testing frameworks across large-scale environments.\n\nI bring experience in building automation frameworks on Databricks (PySpark, SQL), designing backend and frontend validation solutions with Node.js and Playwright, and deploying them using Docker and Jenkins CI/CD. Alongside this, I have over 14 months of prior full stack development experience with React and Java Spring Boot, creating scalable applications and APIs.\n\nMy passion lies at the intersection of AI/ML and Cloud:\n\t• Certified in AWS Developer Associate, Cloud Practitioner, and Generative AI (AWS Bedrock)\n\t• Currently pursuing IBM AI-Enabled certifications to deepen expertise in machine learning workflows, generative AI, and model deployment\n\t• Hands-on with Python ML libraries (scikit-learn, TensorFlow, PyTorch basics), data preprocessing, and feature engineering\n\nI am particularly motivated by opportunities where I can apply my engineering expertise to build scalable, cloud-native solutions and integrate AI/ML capabilities that deliver real business value.\n\nOpen to full-time opportunities in Software Engineering, Cloud, or AI/ML, based in France or across Europe.",
+  "topSkills": "Amazon Web Services (AWS) • React.js • Node.js • Python • JavaScript",
+  "experience": [
+    {
+      "position": "Automation Engineer",
+      "companyName": "SCOR",
+      "employmentType": "Internship",
+      "workplaceType": "On-site",
+      "location": "Paris",
+      "duration": "7 mos",
+      "startDate": "Jul 2025",
+      "endDate": "Jan 2026",
+      "description": "- Implemented containerization of the application using Docker\n- Built Jenkins pipelines for CI/CD across multiple environments\n- Designed & deployed an automated non-regression pipeline on Databricks, reducing execution time by nearly 90%\n- Developed an automation framework using Playwright for frontend & backend testing with CI integration and reporting",
+      "skills": [
+        "Python",
+        "TypeScript",
+        "Node.js",
+        "Docker",
+        "Azure Databricks",
+        "PySpark",
+        "Kubernetes",
+        "Jenkins",
+        "Playwriting"
+      ]
+    },
+    {
+      "position": "Software Engineer",
+      "companyName": "Zeus Learning",
+      "employmentType": "Full-time",
+      "workplaceType": "On-site",
+      "location": "Mumbai",
+      "duration": "1 yr 3 mos",
+      "startDate": "Jun 2022",
+      "endDate": "Aug 2023",
+      "description": "- Collaborated with cross functional teams to design and develop reusable UI components using React.js and Angular.js, reducing front-end development time by 20%\n- Developed and optimised RESTful APIs using Node.js and Django, improving system performance by 30% through efficient data flow design\n- Deployed server less cloud solutions with AWS Lambda and DynamoDB, cutting costs by 20%\n- Automated CI/CD pipelines via GitLab, reducing deployment errors by 40%",
+      "skills": [
+        "AWS Lambda",
+        "SQL",
+        "Continuous Integration and Continuous Delivery (CI/CD)",
+        "Cascading Style Sheets (CSS)",
+        "Git",
+        "TypeScript",
+        "PostgreSQL",
+        "React.js",
+        "JavaScript",
+        "Communication",
+        "Cloud Computing",
+        "Web Services API",
+        "Node.js",
+        "Problem Solving",
+        "Critical Thinking",
+        "Amazon S3",
+        "JSON",
+        "GraphQL"
+      ]
+    },
+    {
+      "position": "Consultant",
+      "companyName": "Foslipy C.S Pvt Ltd",
+      "employmentType": null,
+      "workplaceType": null,
+      "location": "Mumbai",
+      "duration": "1 mo",
+      "startDate": "Jan 2023",
+      "endDate": "Jan 2023",
+      "description": "- Trained a batch of 100 students, covering foundational cloud concepts and deployment strategies\n- Conducted comprehensive hands-on lab sessions on core AWS services such as IAM, EC2, S3, Lambda and Amplify",
+      "skills": [
+        "AWS Lambda",
+        "Amazon EC2",
+        "Amazon Web Services (AWS)",
+        "AWS Identity and Access Management (AWS IAM)",
+        "Amazon S3"
+      ]
+    },
+    {
+      "position": "Web Development Intern",
+      "companyName": "The Sparks Foundation",
+      "employmentType": "Internship",
+      "workplaceType": null,
+      "location": null,
+      "duration": "2 mos",
+      "startDate": "Jan 2022",
+      "endDate": "Feb 2022",
+      "description": null,
+      "skills": [
+        "Cloud Computing"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "schoolName": "EPITA: Ecole d'Ingénieurs en Informatique",
+      "degree": "Masters in Computer Science",
+      "fieldOfStudy": "Software Engineering",
+      "period": "Feb 2024 - Aug 2025",
+      "skills": [
+        "AngularJS",
+        "Git",
+        "Problem Solving",
+        "JSON",
+        "Critical Thinking",
+        "Python",
+        "React.js",
+        "JavaScript",
+        ".NET Framework",
+        "AWS Lambda",
+        "SQL",
+        "Data Structures",
+        "Cascading Style Sheets (CSS)",
+        "Object-Oriented Programming (OOP)",
+        "Docker",
+        "Amazon EC2",
+        "Kotlin",
+        "PostgreSQL",
+        "Java",
+        "Android",
+        "C++",
+        "MongoDB",
+        "Communication",
+        "Algorithms",
+        "Web Services API",
+        "HTML5",
+        "Continuous Integration and Continuous Delivery (CI/CD)",
+        "C (Programming Language)",
+        "Cloud Computing",
+        "Machine Learning",
+        "Node.js"
+      ]
+    },
+    {
+      "schoolName": "University of Mumbai",
+      "degree": "Bachelor's degree",
+      "fieldOfStudy": "Computer Engineering",
+      "period": "2018 - 2022",
+      "skills": [
+        "Git",
+        "Problem Solving",
+        "Critical Thinking",
+        "Python",
+        "JavaScript",
+        "SQL",
+        "Data Structures",
+        "Cascading Style Sheets (CSS)",
+        "Object-Oriented Programming (OOP)",
+        "Natural Language Processing (NLP)",
+        "PostgreSQL",
+        "WebSocket",
+        "Android",
+        "Communication",
+        "Algorithms",
+        "PHP",
+        "Web Services API",
+        "HTML5",
+        "C (Programming Language)",
+        "Cloud Computing"
+      ]
+    },
+    {
+      "schoolName": "The Royal Higher Education Societys College of Arts Science and Commerce,Thane",
+      "degree": null,
+      "fieldOfStudy": null,
+      "period": "2016 - 2018",
+      "skills": [
+        "JavaScript",
+        "Cascading Style Sheets (CSS)",
+        "Communication",
+        "HTML5",
+        "C (Programming Language)"
+      ]
+    },
+    {
+      "schoolName": "N.L. Dalmia High School - India",
+      "degree": null,
+      "fieldOfStudy": null,
+      "period": "2016",
+      "skills": [
+        "JavaScript",
+        "Cascading Style Sheets (CSS)",
+        "Communication",
+        "HTML5"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Snowflake Generative AI Professional Certificate",
+      "issuedAt": "Issued Apr 2026",
+      "issuedBy": "Snowflake"
+    },
+    {
+      "title": "Google AI Essentials",
+      "issuedAt": "Issued Feb 2026",
+      "issuedBy": "Google"
+    },
+    {
+      "title": "AI in Production",
+      "issuedAt": "Issued Oct 2025",
+      "issuedBy": "Udemy"
+    },
+    {
+      "title": "AWS Bedrock - The Complete Guide to AWS Generative AI",
+      "issuedAt": "Issued Feb 2025",
+      "issuedBy": "Udemy"
+    },
+    {
+      "title": "ASP .NET Core Advance",
+      "issuedAt": "Issued Jun 2019",
+      "issuedBy": "Microsoft"
+    },
+    {
+      "title": "AWS Certified Developer Associate",
+      "issuedAt": "Issued Nov 2023",
+      "issuedBy": "Amazon Web Services (AWS)"
+    },
+    {
+      "title": "Machine Learning for All",
+      "issuedAt": "Issued Aug 2020",
+      "issuedBy": "University of London"
+    },
+    {
+      "title": "AWS Solutions Architect Associate",
+      "issuedAt": "Issued Sep 2021",
+      "issuedBy": "Intellipaat"
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "issuedAt": "Issued Dec 2021",
+      "issuedBy": "Amazon Web Services (AWS)"
+    },
+    {
+      "title": "Building Modern Python Applications on AWS",
+      "issuedAt": "Issued Jul 2021",
+      "issuedBy": "Amazon Web Services (AWS)"
+    },
+    {
+      "title": "Web Programming with Python and JavaScript",
+      "issuedAt": "Issued Mar 2021",
+      "issuedBy": "HarvardX"
+    },
+    {
+      "title": "Programming in Java (IIT Kharagpur)",
+      "issuedAt": "Issued Oct 2019 · Expired Dec 2024",
+      "issuedBy": "NPTEL"
+    },
+    {
+      "title": "Programming, Data Structures and Algorithms using Python (IIT Madras)",
+      "issuedAt": "Issued Mar 2020",
+      "issuedBy": "NPTEL"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Neural Style Transfer",
+      "duration": "May 2025 - Jun 2025",
+      "description": "This project is a complete implementation of Neural Style Transfer (NST) using a pretrained transformer network, enabling both image and video stylization using a fast, real-time feedforward model."
+    },
+    {
+      "title": "Face Recognition Attendance System",
+      "duration": "Nov 2024 - Jan 2025",
+      "description": "A real-time face recognition-based attendance system using Python, Streamlit, Redis, and InsightFace. This system detects faces, matches them with stored embeddings, and logs attendance in Redis."
+    },
+    {
+      "title": "Twitter Clone",
+      "duration": "Dec 2024 - Dec 2024",
+      "description": "This project is a full-stack Twitter clone application with a React frontend and Node.js backend."
+    },
+    {
+      "title": "Chatting Web Application",
+      "duration": "Dec 2020 - Feb 2021",
+      "description": "This is a chatting web application which is based on Django Channels and Web Sockets."
+    },
+    {
+      "title": "Mailing System",
+      "duration": "Sep 2020 - Oct 2020",
+      "description": "This is a web-based mailing application that sends and receives emails using API requests. \nIt has been developed using Python, Django, HTML, CSS and JavaScript."
+    },
+    {
+      "title": "E-Commerce Auction Management",
+      "duration": "Sep 2020 - Sep 2020",
+      "description": "This is a web application that allows users to post auction listings and bid on them. \nIt has been developed using Python, Django, HTML, CSS and JavaScript."
+    },
+    {
+      "title": "Face Mask Detection",
+      "duration": "Jun 2020 - Jun 2020",
+      "description": "This is a python application that uses machine learning models for detecting if a person is wearing a mask or not."
+    },
+    {
+      "title": "Book Review System",
+      "duration": "Apr 2020 - Apr 2020",
+      "description": "This web application allows users to search books based on a book name or author. It displays book details such as cover page, ratings and reviews. \nIt has been developed using Flask. It fetches the book details from Goodreads portal using API's."
+    }
+  ],
+  "skills": [
+    "Snowflake Cloud",
+    "Jenkins",
+    "PySpark",
+    "Azure Databricks",
+    "Prisma ORM",
+    "JSON",
+    "Android",
+    ".NET Framework",
+    "Docker",
+    "MongoDB",
+    "Amazon Web Services (AWS)",
+    "Python",
+    "Java",
+    "Node.js",
+    "React.js",
+    "JavaScript",
+    "Django",
+    "Git",
+    "SQL",
+    "HTML5",
+    "Data Science",
+    "Snowflake",
+    "MLOps",
+    "Playwriting",
+    "Kubernetes",
+    "Socket.io",
+    "React Hooks",
+    "Neural Networks",
+    "Artificial Intelligence (AI)",
+    "Convolutional Neural Networks (CNN)",
+    "Streamlit",
+    "Redis",
+    "ML",
+    "Automation Engineering",
+    "Test Automation",
+    "Object-Oriented Programming (OOP)",
+    "Continuous Integration and Continuous Delivery (CI/CD)",
+    "Natural Language Processing (NLP)",
+    "AWS Identity and Access Management (AWS IAM)",
+    "Web Services API",
+    "Critical Thinking",
+    "Problem Solving",
+    "Communication",
+    "Agentic AI Development",
+    "AI Agents",
+    "Retrieval-Augmented Generation (RAG)",
+    "Transformer Models",
+    "Amazon Bedrock",
+    "Generative AI"
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Native or bilingual proficiency"
+    },
+    {
+      "name": "French",
+      "proficiency": "Limited working proficiency"
+    }
+  ],
+  "receivedRecommendations": [
+    {
+      "givenBy": "Chams-Eddine Jied",
+      "givenByHeadline": "Solution Owner ",
+      "givenAt": "April 10, 2026, Chams-Eddine managed Chaitanya directly",
+      "description": "I highly recommend Chaitanya Malani for roles related to software engineering.\n\nDuring his assignment, Chaitanya made a strong contribution to the APEX Calculation Engine by developing robust automated tests using PySpark on Databricks, significantly improving the reliability and stability of critical calculations. He also designed and implemented backend API tests in Java, enhancing overall test coverage and helping detect regressions early.\nChaitanya additionally worked on enhancing a Jenkins pipeline to enable the automatic triggering of tests and explored Docker integration to improve portability and execution consistency of test environments, demonstrating a strong DevOps-oriented mindset.\nBeyond his solid technical skills, Chaitanya stood out for his autonomy, proactivity, and positive attitude. He was very pleasant to work with and consistently showed initiative, often exceeding expectations in both execution and collaboration.\nChaitanya proved to be a reliable, motivated, and quality-driven professional. I am confident he would be a strong asset to any technical team."
+    }
+  ]
+}

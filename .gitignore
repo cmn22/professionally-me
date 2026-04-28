@@ -12,9 +12,5 @@ wheels/
 # Environment variables
 .env
 
-# Generated LinkedIn data (run refresh_data.py to produce these)
-data/linkedin.json
-data/linkedin_clean.json
-
 # Editor Files
 CLAUDE.md

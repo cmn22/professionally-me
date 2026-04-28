@@ -79,7 +79,9 @@ class Me:
             api_key=os.getenv("OPENROUTER_KEY"),
             base_url="https://openrouter.ai/api/v1"
         )
-        self.name = "Chaitanya Malani"
+        with open("config.json", "r", encoding="utf-8") as f:
+            config = json.load(f)
+        self.name = config["name"]
         try:
             with open("data/linkedin_clean.json", "r", encoding="utf-8") as f:
                 self.linkedin = json.dumps(json.load(f), indent=2)

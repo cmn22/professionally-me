@@ -1,5 +1,5 @@
 ---
-title: Professionally Me
+title: professionally-me
 emoji: 💼
 colorFrom: blue
 colorTo: indigo

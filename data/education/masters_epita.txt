@@ -1,0 +1,56 @@
+DEGREE: Master of Computer Science in Software Engineering
+INSTITUTION: Ecole d'Ingénieurs en Informatique (EPITA), Paris
+GRADUATION YEAR: 2026
+PROGRAM STRUCTURE: 120 ECTS Credits (30 ECTS per semester)
+
+
+--- ACADEMIC SUBJECTS BY SEMESTER ---
+
+SEMESTER: SPRING - S1 (2024)
+- Operating Systems UNIX
+- French Spring 24
+- Cultural Integration Workshop
+- Managing Cultural Shock
+- Project Management Principles
+- Enterprise Essentials Fundamental
+- Corporate Finance
+- Communication for Leaders
+- Introduction to Python
+- Advanced Algorithmic
+- Relational Databases
+- Data Privacy by Design
+- Digital Transformation Fundamental
+- Introduction to Block Chain and Bitcoin
+- Introduction to Network Protocols and Architecture Core
+
+SEMESTER: SPRING - S2 (2024)
+- SE Kaggle Week 2
+- Digital Marketing and Social Media Strategy
+- ITIL
+- Green IT
+- Career Project Elaboration SE
+- French Language Program SE
+- Software and Database Security
+- Advanced C
+- Android Initiation
+- Introduction to iOS
+- OOA and UML and Java SE
+- Cloud Computing using AWS SE (Status: Resit)
+
+SEMESTER: SPRING - S3 (2024)
+- DotNET and C sharp Programming
+- Advanced Java Programming
+- Advanced Databases
+- Structured Data and Transportation SE
+- General Front End Development Principles
+- Advanced Javascript
+- Front End Applications
+- Progressive Web Applications
+- Web Applications Patterns
+- Software Quality Assurance
+- Software Industrialization SE
+- How To Use Devops Approach
+- Action Learning SE
+- French Language Program SE
+- Cross Border Management SE
+- Knowledge Management and Innovation SE

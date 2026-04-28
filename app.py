@@ -3,7 +3,6 @@ from openai import OpenAI
 import json
 import os
 import requests
-from pypdf import PdfReader
 import gradio as gr
 
 
@@ -77,16 +76,16 @@ class Me:
 
     def __init__(self):
         self.openai = OpenAI(
-            api_key=os.getenv("GEMINI_API_KEY"), 
-            base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+            api_key=os.getenv("OPENROUTER_KEY"),
+            base_url="https://openrouter.ai/api/v1"
         )
         self.name = "Chaitanya Malani"
-        reader = PdfReader("data/CV.pdf")
-        self.linkedin = ""
-        for page in reader.pages:
-            text = page.extract_text()
-            if text:
-                self.linkedin += text
+        try:
+            with open("data/linkedin_clean.json", "r", encoding="utf-8") as f:
+                self.linkedin = json.dumps(json.load(f), indent=2)
+        except FileNotFoundError:
+            with open("data/linkedin.json", "r", encoding="utf-8") as f:
+                self.linkedin = json.dumps(json.load(f), indent=2)
         with open("data/summary.txt", "r", encoding="utf-8") as f:
             self.summary = f.read()
 
@@ -119,16 +118,15 @@ If the user is engaging in discussion, try to steer them towards getting in touc
         messages = [{"role": "system", "content": self.system_prompt()}] + history + [{"role": "user", "content": message}]
         done = False
         while not done:
-            response = self.openai.chat.completions.create(model="gemini-2.5-flash-lite", messages=messages, tools=tools)
-            if response.choices[0].finish_reason=="tool_calls":
-                message = response.choices[0].message
-                tool_calls = message.tool_calls
-                results = self.handle_tool_call(tool_calls)
+            response = self.openai.chat.completions.create(model="openai/gpt-oss-120b:free", messages=messages, tools=tools)
+            message = response.choices[0].message
+            if message.tool_calls:
+                results = self.handle_tool_call(message.tool_calls)
                 messages.append(message)
                 messages.extend(results)
             else:
                 done = True
-        return response.choices[0].message.content
+        return message.content
     
 
 if __name__ == "__main__":

@@ -6,11 +6,12 @@
 
 1. Your LinkedIn profile is scraped via [Apify](https://apify.com) and cleaned to remove noise, reducing token usage by ~80%.
 2. The cleaned profile is injected into the LLM's system prompt.
-3. The LLM uses two tools — `record_user_details` and `record_unknown_question` — to send you real-time Pushover notifications.
-4. The chat UI is built with [Gradio](https://gradio.app) and can be embedded on any website.
-5. The bot stays in character using your LinkedIn profile as its knowledge base.
-6. When a visitor shares their email, a Pushover notification fires instantly.
-7. Questions the bot can't answer are also logged via Pushover.
+3. [LiteLLM](https://docs.litellm.ai/) provides one interface for OpenAI, Anthropic, Google Gemini, OpenRouter, and other model providers.
+4. The LLM uses two tools — `record_user_details` and `record_unknown_question` — to send you real-time Pushover notifications.
+5. The chat UI is built with [Gradio](https://gradio.app) and can be embedded on any website.
+6. The bot stays in character using your LinkedIn profile as its knowledge base.
+7. When a visitor shares their email, a Pushover notification fires instantly.
+8. Questions the bot can't answer are also logged via Pushover.
 
 ---
 
@@ -19,7 +20,8 @@
 | Component | Tool |
 |---|---|
 | Chat UI | [Gradio](https://gradio.app) 5.33.0 |
-| LLM Provider | [OpenRouter](https://openrouter.ai) |
+| LLM Interface | [LiteLLM](https://docs.litellm.ai/) |
+| LLM Providers | OpenAI, Anthropic, Google Gemini, OpenRouter, and more |
 | LinkedIn Scraping | [Apify](https://apify.com) — `harvestapi/linkedin-profile-scraper` |
 | Push Notifications | [Pushover](https://pushover.net) |
 | Package Manager | [uv](https://docs.astral.sh/uv/) |
@@ -30,7 +32,7 @@
 
 Before getting started, you will need accounts and API keys for the following:
 
-- **OpenRouter** — [openrouter.ai](https://openrouter.ai) → Create account → Keys → Create Key
+- **One LLM provider** — create an API key with OpenAI, Anthropic, Google Gemini, or OpenRouter
 - **Apify** — [apify.com](https://apify.com) → Settings → Integrations → API token
 - **Pushover** — see detailed steps below
 
@@ -73,22 +75,54 @@ Edit `config.json` with your own details:
   "name": "Your Full Name",
   "linkedin_url": "https://www.linkedin.com/in/your-profile",
   "apify_actor_id": "LpVuK3Zozwuipa5bp",
-  "model": "openai/gpt-oss-120b:free"
+  "llm": {
+    "model_group": "career-chatbot",
+    "model_list": [
+      {
+        "model_name": "career-chatbot",
+        "litellm_params": {
+          "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+          "order": 1
+        }
+      },
+      {
+        "model_name": "career-chatbot",
+        "litellm_params": {
+          "model": "gemini/gemini-3.8-flash",
+          "order": 2
+        }
+      }
+    ],
+    "router_settings": {
+      "num_retries": 2,
+      "timeout": 60,
+      "allowed_fails": 1,
+      "cooldown_time": 30,
+      "max_fallbacks": 1
+    }
+  }
 }
 ```
 
-> **Model**: Any model available on OpenRouter works here. Browse options at [openrouter.ai/models](https://openrouter.ai/models).
+Every deployment uses the same logical `model_name` so LiteLLM groups them behind one application-facing model. The deployment with the lowest `order` is attempted first. If it remains unavailable after retries, LiteLLM moves to the next order, manages cooldowns, and later restores recovered deployments.
+
+Models use LiteLLM's native `<provider>/<model>` identifiers. LiteLLM determines the provider and reads that provider's standard environment variable automatically.
 
 ### 4. Set environment variables
 
 Create a `.env` file in the project root:
 
 ```
-OPENROUTER_KEY=your_openrouter_api_key
+# Both keys are required for the default primary/fallback configuration:
+OPENROUTER_API_KEY=your_openrouter_api_key
+GEMINI_API_KEY=your_gemini_api_key
+
 APIFY_TOKEN=your_apify_api_token
 PUSHOVER_TOKEN=your_pushover_app_token
 PUSHOVER_USER=your_pushover_user_key
 ```
+
+Use LiteLLM's standard key names. The previous `OPENROUTER_KEY` variable must be renamed to `OPENROUTER_API_KEY`. Add keys for any additional deployments you place in `model_list`, such as `OPENAI_API_KEY` or `ANTHROPIC_API_KEY`.
 
 ### 5. Fetch your LinkedIn data
 
@@ -127,7 +161,8 @@ In your Space, go to **Settings → Variables and Secrets** and add the followin
 
 | Secret | Value |
 |---|---|
-| `OPENROUTER_KEY` | Your OpenRouter API key |
+| `OPENROUTER_API_KEY` | Primary OpenRouter deployment |
+| `GEMINI_API_KEY` | Google Gemini fallback deployment |
 | `PUSHOVER_TOKEN` | Your Pushover app token |
 | `PUSHOVER_USER` | Your Pushover user key |
 

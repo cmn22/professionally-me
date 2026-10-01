@@ -4,11 +4,11 @@ This file is the starting point for coding assistants working in this repository
 
 ## Project purpose
 
-Professionally Me is a Gradio career chatbot that answers as the profile owner using cleaned LinkedIn data. It uses LiteLLM for provider-agnostic model routing and Pushover for lead and unknown-question notifications.
+Professionally Me is a Gradio career chatbot that answers as the profile owner using cleaned LinkedIn data. It uses LiteLLM for provider-agnostic model routing and a Slack incoming webhook for lead and unknown-question notifications.
 
 ## Architecture map
 
-- `app.py`: Application entry point, Gradio UI, system prompt, chat/tool-call loop, and Pushover tools.
+- `app.py`: Application entry point, Gradio UI, system prompt, chat/tool-call loop, and Slack notification tools.
 - `src/llm.py`: LiteLLM configuration validation, Router construction, provider-error translation, and privacy-safe deployment logging.
 - `config.json`: Identity, LinkedIn scraper settings, LiteLLM model group, ordered deployments, and Router settings.
 - `refresh_data.py`: Runs the LinkedIn fetch and cleanup pipeline.
@@ -37,7 +37,7 @@ The default runtime configuration requires:
 
 - `OPENROUTER_API_KEY`: primary LLM deployment
 - `GEMINI_API_KEY`: fallback LLM deployment
-- `PUSHOVER_TOKEN` and `PUSHOVER_USER`: runtime notifications
+- `SLACK_WEBHOOK_URL`: runtime notifications through a Slack incoming webhook
 
 Data refresh additionally requires `APIFY_TOKEN`. Other deployments use their LiteLLM-standard variables, such as `OPENAI_API_KEY` and `ANTHROPIC_API_KEY`.
 
@@ -99,4 +99,4 @@ Before handing off a code change:
 2. Run compilation and `git diff --check`.
 3. Check `git status --short --branch` and report any pre-existing or new changes accurately.
 4. For routing changes, perform a live primary/fallback test only when credentials are available and the user has authorized real provider calls.
-5. Do not push, deploy, refresh LinkedIn data, or send test Pushover notifications unless explicitly requested.
+5. Do not push, deploy, refresh LinkedIn data, or send test Slack notifications unless explicitly requested.

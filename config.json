@@ -2,5 +2,30 @@
   "name": "Chaitanya Malani",
   "linkedin_url": "https://www.linkedin.com/in/chaitanya-malani",
   "apify_actor_id": "LpVuK3Zozwuipa5bp",
-  "model": "google/gemma-4-31b-it:free"
+  "llm": {
+    "model_group": "career-chatbot",
+    "model_list": [
+      {
+        "model_name": "career-chatbot",
+        "litellm_params": {
+          "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+          "order": 1
+        }
+      },
+      {
+        "model_name": "career-chatbot",
+        "litellm_params": {
+          "model": "gemini/gemini-3.8-flash",
+          "order": 2
+        }
+      }
+    ],
+    "router_settings": {
+      "num_retries": 2,
+      "timeout": 60,
+      "allowed_fails": 1,
+      "cooldown_time": 30,
+      "max_fallbacks": 1
+    }
+  }
 }

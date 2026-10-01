@@ -1,10 +1,18 @@
 import json
+import os
 from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
-from app import Me
+import requests
+
+from app import (
+    Me,
+    record_unknown_question,
+    record_user_details,
+    send_slack_notification,
+)
 from src.llm import LLMServiceError
 
 
@@ -97,6 +105,74 @@ class ChatTests(unittest.TestCase):
             result = me.chat("Hello", [])
 
         self.assertIn("Provider is unavailable.", result)
+
+
+class SlackNotificationTests(unittest.TestCase):
+    @patch("app.requests.post")
+    def test_sends_notification_to_configured_webhook(self, post):
+        response = Mock()
+        post.return_value = response
+
+        with patch.dict(
+            os.environ,
+            {"SLACK_WEBHOOK_URL": "https://hooks.slack.test/services/example"},
+            clear=True,
+        ):
+            delivered = send_slack_notification("Test notification")
+
+        self.assertTrue(delivered)
+        post.assert_called_once_with(
+            "https://hooks.slack.test/services/example",
+            json={"text": "Test notification"},
+            timeout=10,
+        )
+        response.raise_for_status.assert_called_once_with()
+
+    @patch("app.requests.post")
+    def test_does_not_send_without_webhook(self, post):
+        with patch.dict(os.environ, {}, clear=True):
+            delivered = send_slack_notification("Test notification")
+
+        self.assertFalse(delivered)
+        post.assert_not_called()
+
+    @patch("app.requests.post", side_effect=requests.RequestException("failed"))
+    def test_handles_delivery_failure(self, post):
+        with patch.dict(
+            os.environ,
+            {"SLACK_WEBHOOK_URL": "https://hooks.slack.test/services/example"},
+            clear=True,
+        ):
+            delivered = send_slack_notification("Test notification")
+
+        self.assertFalse(delivered)
+        post.assert_called_once()
+
+    @patch("app.send_slack_notification", return_value=True)
+    def test_formats_lead_notification_and_escapes_slack_markup(self, send):
+        result = record_user_details(
+            "visitor@example.com",
+            name="Visitor <!channel>",
+            notes="Interested in R&D",
+        )
+
+        self.assertEqual(result, {"recorded": "ok"})
+        send.assert_called_once_with(
+            ":incoming_envelope: *New portfolio lead*\n\n"
+            "*Name:* Visitor &lt;!channel&gt;\n"
+            "*Email:* visitor@example.com\n"
+            "*Notes:* Interested in R&amp;D"
+        )
+
+    @patch("app.send_slack_notification", return_value=False)
+    def test_reports_unknown_question_delivery_failure(self, send):
+        result = record_unknown_question("Unknown?")
+
+        self.assertEqual(result, {"recorded": "notification_failed"})
+        send.assert_called_once_with(
+            ":question: *Unanswered portfolio question*\n\n"
+            "*Question:* Unknown?"
+        )
 
 
 if __name__ == "__main__":

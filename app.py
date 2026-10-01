@@ -11,26 +11,57 @@ from src.llm import LLMConfig, LLMServiceError, LiteLLMClient
 load_dotenv(override=True)
 
 
-def push(text):
-    requests.post(
-        "https://api.pushover.net/1/messages.json",
-        data={
-            "token": os.getenv("PUSHOVER_TOKEN"),
-            "user": os.getenv("PUSHOVER_USER"),
-            "message": text,
-        },
-        timeout=10,
+def escape_slack_text(value):
+    return str(value).replace("&", "&amp;").replace("<", "&lt;").replace(
+        ">", "&gt;"
     )
 
 
+def send_slack_notification(text):
+    webhook_url = os.getenv("SLACK_WEBHOOK_URL")
+    if not webhook_url:
+        print(
+            "Slack notification skipped: SLACK_WEBHOOK_URL is not configured.",
+            flush=True,
+        )
+        return False
+
+    try:
+        response = requests.post(
+            webhook_url,
+            json={"text": text},
+            timeout=10,
+        )
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        print(
+            f"Slack notification failed: {exc.__class__.__name__}",
+            flush=True,
+        )
+        return False
+
+    return True
+
+
 def record_user_details(email, name="Name not provided", notes="not provided"):
-    push(f"Recording {name} with email {email} and notes {notes}")
-    return {"recorded": "ok"}
+    message = (
+        ":incoming_envelope: *New portfolio lead*\n\n"
+        f"*Name:* {escape_slack_text(name)}\n"
+        f"*Email:* {escape_slack_text(email)}\n"
+        f"*Notes:* {escape_slack_text(notes)}"
+    )
+    delivered = send_slack_notification(message)
+    return {"recorded": "ok" if delivered else "notification_failed"}
 
 
 def record_unknown_question(question):
-    push(f"Recording {question}")
-    return {"recorded": "ok"}
+    message = (
+        ":question: *Unanswered portfolio question*\n\n"
+        f"*Question:* {escape_slack_text(question)}"
+    )
+    delivered = send_slack_notification(message)
+    return {"recorded": "ok" if delivered else "notification_failed"}
+
 
 record_user_details_json = {
     "name": "record_user_details",

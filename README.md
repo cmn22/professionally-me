@@ -7,11 +7,11 @@
 1. Your LinkedIn profile is scraped via [Apify](https://apify.com) and cleaned to remove noise, reducing token usage by ~80%.
 2. The cleaned profile is injected into the LLM's system prompt.
 3. [LiteLLM](https://docs.litellm.ai/) provides one interface for OpenAI, Anthropic, Google Gemini, OpenRouter, and other model providers.
-4. The LLM uses two tools — `record_user_details` and `record_unknown_question` — to send you real-time Pushover notifications.
+4. The LLM uses two tools — `record_user_details` and `record_unknown_question` — to send real-time notifications to a Slack channel.
 5. The chat UI is built with [Gradio](https://gradio.app) and can be embedded on any website.
 6. The bot stays in character using your LinkedIn profile as its knowledge base.
-7. When a visitor shares their email, a Pushover notification fires instantly.
-8. Questions the bot can't answer are also logged via Pushover.
+7. When a visitor shares their email, a Slack channel notification fires instantly.
+8. Questions the bot can't answer are also sent to Slack.
 
 ---
 
@@ -23,7 +23,7 @@
 | LLM Interface | [LiteLLM](https://docs.litellm.ai/) |
 | LLM Providers | OpenAI, Anthropic, Google Gemini, OpenRouter, and more |
 | LinkedIn Scraping | [Apify](https://apify.com) — `harvestapi/linkedin-profile-scraper` |
-| Push Notifications | [Pushover](https://pushover.net) |
+| Notifications | [Slack incoming webhooks](https://api.slack.com/messaging/webhooks) |
 | Package Manager | [uv](https://docs.astral.sh/uv/) |
 
 ---
@@ -34,18 +34,17 @@ Before getting started, you will need accounts and API keys for the following:
 
 - **One LLM provider** — create an API key with OpenAI, Anthropic, Google Gemini, or OpenRouter
 - **Apify** — [apify.com](https://apify.com) → Settings → Integrations → API token
-- **Pushover** — see detailed steps below
+- **Slack workspace** — see the incoming webhook steps below
 
-### Getting Pushover Credentials
+### Getting a Slack Webhook URL
 
-Pushover sends instant notifications to your phone when someone interacts with the bot.
+The app sends lead details and unanswered questions to a Slack channel using an incoming webhook.
 
-1. Go to [pushover.net](https://pushover.net) and create a free account.
-2. After signing in, your **User Key** is shown on the dashboard — copy it. This is your `PUSHOVER_USER`.
-3. Scroll down to **Your Applications** and click **Create an Application/API Token**.
-4. Give it a name (e.g. `Professionally Me`) and click **Create Application**.
-5. Copy the **API Token** shown on the next page. This is your `PUSHOVER_TOKEN`.
-6. Install the Pushover app on your phone ([iOS](https://apps.apple.com/app/pushover-notifications/id506088175) / [Android](https://play.google.com/store/apps/details?id=net.superblock.pushover)) and log in.
+1. Go to [Slack API: Your Apps](https://api.slack.com/apps) and create an app from scratch.
+2. Select the Slack workspace that should receive notifications.
+3. Open **Incoming Webhooks** and turn on **Activate Incoming Webhooks**.
+4. Select **Add New Webhook to Workspace** and choose the destination channel.
+5. Copy the generated webhook URL. Treat it as a secret because anyone with it can post to that channel.
 
 ---
 
@@ -118,8 +117,7 @@ OPENROUTER_API_KEY=your_openrouter_api_key
 GEMINI_API_KEY=your_gemini_api_key
 
 APIFY_TOKEN=your_apify_api_token
-PUSHOVER_TOKEN=your_pushover_app_token
-PUSHOVER_USER=your_pushover_user_key
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/your/webhook/url
 ```
 
 Use LiteLLM's standard key names. The previous `OPENROUTER_KEY` variable must be renamed to `OPENROUTER_API_KEY`. Add keys for any additional deployments you place in `model_list`, such as `OPENAI_API_KEY` or `ANTHROPIC_API_KEY`.
@@ -163,8 +161,7 @@ In your Space, go to **Settings → Variables and Secrets** and add the followin
 |---|---|
 | `OPENROUTER_API_KEY` | Primary OpenRouter deployment |
 | `GEMINI_API_KEY` | Google Gemini fallback deployment |
-| `PUSHOVER_TOKEN` | Your Pushover app token |
-| `PUSHOVER_USER` | Your Pushover user key |
+| `SLACK_WEBHOOK_URL` | Incoming webhook for the Slack notification channel |
 
 > `APIFY_TOKEN` is only needed locally to run `refresh_data.py` — it is not required at runtime on HF Spaces.
 

@@ -6,161 +6,82 @@
     "firstName": "Chaitanya",
     "lastName": "Malani",
     "emails": [],
-    "headline": "Automation Engineer @ SCOR | AWS Certified Developer Associate | Software Engineer | FullStack Developer",
+    "headline": "Software Engineer | AI Engineer | Data Engineer | FullStack Developer",
     "openToWork": false,
     "hiring": false,
     "premium": true,
     "influencer": false,
     "memorialized": false,
+    "creator": false,
     "location": {
-      "linkedinText": "Paris, Île-de-France, France",
-      "countryCode": "FR",
+      "linkedinText": "Mumbai, Maharashtra, India",
+      "countryCode": "IN",
       "parsed": {
-        "text": "Paris, France",
-        "countryCode": "FR",
+        "text": "Mumbai, India",
+        "countryCode": "IN",
         "regionCode": null,
-        "country": "France",
-        "countryFull": "France",
-        "state": "Île-de-France",
-        "city": "Paris"
+        "country": "India",
+        "countryFull": "India",
+        "state": "Maharashtra",
+        "city": "Mumbai"
       }
     },
     "objectUrn": "848729287",
     "registeredAt": "2020-09-24T10:12:12.314Z",
-    "topSkills": "Amazon Web Services (AWS) • React.js • Node.js • Python • JavaScript",
-    "connectionsCount": 1079,
-    "followerCount": 1079,
-    "verified": true,
-    "about": "I am a Software Engineer with a strong focus on Cloud Computing, AI/ML, and Automation Engineering. I am currently completing my Master’s in Computer Science at EPITA, Paris, alongside my end-of-studies internship at SCOR Paris as an Automation Engineer. My work spans data pipeline automation, backend reliability, and end-to-end testing frameworks across large-scale environments.\n\nI bring experience in building automation frameworks on Databricks (PySpark, SQL), designing backend and frontend validation solutions with Node.js and Playwright, and deploying them using Docker and Jenkins CI/CD. Alongside this, I have over 14 months of prior full stack development experience with React and Java Spring Boot, creating scalable applications and APIs.\n\nMy passion lies at the intersection of AI/ML and Cloud:\n\t• Certified in AWS Developer Associate, Cloud Practitioner, and Generative AI (AWS Bedrock)\n\t• Currently pursuing IBM AI-Enabled certifications to deepen expertise in machine learning workflows, generative AI, and model deployment\n\t• Hands-on with Python ML libraries (scikit-learn, TensorFlow, PyTorch basics), data preprocessing, and feature engineering\n\nI am particularly motivated by opportunities where I can apply my engineering expertise to build scalable, cloud-native solutions and integrate AI/ML capabilities that deliver real business value.\n\nOpen to full-time opportunities in Software Engineering, Cloud, or AI/ML, based in France or across Europe.",
-    "currentPosition": [
-      {
-        "position": "Automation Engineer",
-        "location": "Paris",
-        "employmentType": "Internship",
-        "workplaceType": "On-site",
-        "companyName": "SCOR",
-        "companyLinkedinUrl": "https://www.linkedin.com/company/scor/",
-        "companyId": "11543",
-        "companyUniversalName": "scor",
-        "duration": "7 mos",
-        "description": "- Implemented containerization of the application using Docker\n- Built Jenkins pipelines for CI/CD across multiple environments\n- Designed & deployed an automated non-regression pipeline on Databricks, reducing execution time by nearly 90%\n- Developed an automation framework using Playwright for frontend & backend testing with CI integration and reporting",
-        "skills": [
-          "Python",
-          "TypeScript",
-          "Node.js",
-          "Docker",
-          "Azure Databricks",
-          "PySpark",
-          "Kubernetes",
-          "Jenkins",
-          "Playwriting"
-        ],
-        "startDate": {
-          "month": "Jul",
-          "year": 2025,
-          "text": "Jul 2025"
-        },
-        "endDate": {
-          "month": "Jan",
-          "year": 2026,
-          "text": "Jan 2026"
-        },
-        "companyLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_400_400/company-logo_400_400/0/1630661515928/scor_logo?e=1778716800&v=beta&t=tRQyWwf-6JuZSxokolwbNQzBDmYyKkHgy6dJ0wVd9Qo",
-          "sizes": [
-            {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_400_400/company-logo_400_400/0/1630661515928/scor_logo?e=1778716800&v=beta&t=tRQyWwf-6JuZSxokolwbNQzBDmYyKkHgy6dJ0wVd9Qo",
-              "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
-            },
-            {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_200_200/company-logo_200_200/0/1630661515928/scor_logo?e=1778716800&v=beta&t=2FO3do8LgqUnr7eapZ_2MgCDoHw-2xLUOvQw6YmqmE0",
-              "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
-            },
-            {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_100_100/company-logo_100_100/0/1630661515928/scor_logo?e=1778716800&v=beta&t=9WYaKsxpYcwpb_0PKa93y29fsqwpZIn7OvojczY3wY4",
-              "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
-            }
-          ]
-        }
-      }
+    "topSkills": [
+      "Python",
+      "Cloud Computing",
+      "Data Pipelines",
+      "AI Software Development",
+      "Automation Engineering"
     ],
+    "connectionsCount": 1101,
+    "followerCount": 1101,
+    "verified": true,
+    "about": "Im a Software Engineer with 2+ years of experience across India and France, working across full-stack development, automation, data engineering, cloud infrastructure, and applied AI.\n\nMy experience spans the software engineering lifecycle — from building web applications, APIs, and reusable frontend systems to designing automation frameworks, data pipelines, CI/CD workflows, and AI-ready platforms. I enjoy working across different layers of a system and understanding how they come together to solve real-world problems.\n\nHaving studied and worked in Paris, I've had the opportunity to work in international and cross-functional environments while solving problems across different industries. I hold a Masters degree in Computer Science (Software Engineering) from EPITA, Paris, and am an AWS Certified Developer – Associate.\n\nMy interests sit at the intersection of software engineering, cloud and DevOps, data engineering, automation, and applied AI. Im particularly interested in building systems that simplify complex or manual processes and turn them into scalable, reliable, and maintainable software.\n\nWhat interests me most isnt a particular framework or technology — its engineering useful systems end to end. Whether that involves full-stack development, cloud infrastructure, large-scale data processing, automation, or AI depends on the problem Im trying to solve.",
+    "industry": {
+      "id": 4,
+      "name": "Software Development"
+    },
+    "currentPosition": [],
     "profileTopEducation": [
       {
         "schoolName": "EPITA: Ecole d'Ingénieurs en Informatique",
+        "description": null,
+        "insights": null,
+        "skills": null,
         "schoolLinkedinUrl": "https://www.linkedin.com/company/15106487/",
         "schoolId": "15106487",
         "degree": "Masters in Computer Science",
         "fieldOfStudy": "Software Engineering",
-        "skills": [
-          "AngularJS",
-          "Git",
-          "Problem Solving",
-          "JSON",
-          "Critical Thinking",
-          "Python",
-          "React.js",
-          "JavaScript",
-          ".NET Framework",
-          "AWS Lambda",
-          "SQL",
-          "Data Structures",
-          "Cascading Style Sheets (CSS)",
-          "Object-Oriented Programming (OOP)",
-          "Docker",
-          "Amazon EC2",
-          "Kotlin",
-          "PostgreSQL",
-          "Java",
-          "Android",
-          "C++",
-          "MongoDB",
-          "Communication",
-          "Algorithms",
-          "Web Services API",
-          "HTML5",
-          "Continuous Integration and Continuous Delivery (CI/CD)",
-          "C (Programming Language)",
-          "Cloud Computing",
-          "Machine Learning",
-          "Node.js"
-        ],
+        "period": "Feb 2024 - Apr 2026",
         "startDate": {
+          "text": "Feb 2024",
           "month": "Feb",
-          "year": 2024,
-          "text": "Feb 2024"
+          "year": 2024
         },
         "endDate": {
-          "month": "Aug",
-          "year": 2025,
-          "text": "Aug 2025"
+          "text": "Apr 2026",
+          "month": "Apr",
+          "year": 2026
         },
-        "period": "Feb 2024 - Aug 2025",
         "schoolLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFIl-T5QJZDlA/company-logo_400_400/B4EZ0q4mNJHsAY-/0/1774540973420/epita_ecole_ingenieurs_informatique_logo?e=1778716800&v=beta&t=cVm6Q7Lyv5EQFCjchf0Hfl-de_7nuU6ZDIaW8hory14",
+          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEpmyn_pnI1Ug/company-logo_400_400/B4EZ6YSYUbJIAU-/0/1780671415887/epita_ecole_ingenieurs_informatique_logo?e=1793232000&v=beta&t=6kdC32ujQVDuoJQWvGa7t8GGf5_MLFACuFk029Vowyk",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFIl-T5QJZDlA/company-logo_400_400/B4EZ0q4mNJHsAY-/0/1774540973420/epita_ecole_ingenieurs_informatique_logo?e=1778716800&v=beta&t=cVm6Q7Lyv5EQFCjchf0Hfl-de_7nuU6ZDIaW8hory14",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEpmyn_pnI1Ug/company-logo_400_400/B4EZ6YSYUbJIAU-/0/1780671415887/epita_ecole_ingenieurs_informatique_logo?e=1793232000&v=beta&t=6kdC32ujQVDuoJQWvGa7t8GGf5_MLFACuFk029Vowyk",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFIl-T5QJZDlA/company-logo_200_200/B4EZ0q4mNJHsAI-/0/1774540973420/epita_ecole_ingenieurs_informatique_logo?e=1778716800&v=beta&t=xKY-6b1lHSeEyy38j7Kl4h6ZySBG1oc6MbLmPairRQc",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEpmyn_pnI1Ug/company-logo_200_200/B4EZ6YSYUbJIAE-/0/1780671415887/epita_ecole_ingenieurs_informatique_logo?e=1793232000&v=beta&t=CgAh1oHwA0FUUgW_8J-RGb-I1TA-1SSerD3Znh0_UX8",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFIl-T5QJZDlA/company-logo_100_100/B4EZ0q4mNJHsAQ-/0/1774540973420/epita_ecole_ingenieurs_informatique_logo?e=1778716800&v=beta&t=vu2plc1QAv3zGVzIV7s6t5PCDZLYnaARNpDHX73OlGE",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEpmyn_pnI1Ug/company-logo_100_100/B4EZ6YSYUbJIAI-/0/1780671415886/epita_ecole_ingenieurs_informatique_logo?e=1793232000&v=beta&t=fvrCiq91kc4Z5J2NLHdGf67H58LnoXMv8ltTEuG-Rkc",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
@@ -168,52 +89,46 @@
     ],
     "profileActions": [],
     "profilePicture": {
-      "url": "https://media.licdn.com/dms/image/v2/D4E03AQFaCjziCJaUvg/profile-displayphoto-crop_800_800/B4EZyRo.stJcAI-/0/1771969967539?e=1778716800&v=beta&t=_XH_Z4OVkZvldobQVVcVO8ZMVPlW7nqtgJH2WbmsvBo",
+      "url": "https://media.licdn.com/dms/image/v2/D4D03AQE9Z5QDzkhl5A/profile-displayphoto-crop_800_800/B4DaB4gbFoKgAI-/0/1788728161565?e=1793232000&v=beta&t=s-diaFTR7qwYSX6yAOta2k1MfmCPbpldg1hLGG43U3g",
       "sizes": [
         {
-          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFaCjziCJaUvg/profile-displayphoto-crop_800_800/B4EZyRo.stJcAI-/0/1771969967539?e=1778716800&v=beta&t=_XH_Z4OVkZvldobQVVcVO8ZMVPlW7nqtgJH2WbmsvBo",
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQE9Z5QDzkhl5A/profile-displayphoto-crop_800_800/B4DaB4gbFoKgAI-/0/1788728161565?e=1793232000&v=beta&t=s-diaFTR7qwYSX6yAOta2k1MfmCPbpldg1hLGG43U3g",
           "width": 800,
-          "height": 800,
-          "expiresAt": 1778716800000
+          "height": 800
         },
         {
-          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFaCjziCJaUvg/profile-displayphoto-scale_400_400/B4EZyRo.stJcAg-/0/1771969967647?e=1778716800&v=beta&t=VhgoWG1zvLxoJ6-2L7o6lz9rAXqFq-fX5A8qwFZH08M",
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQE9Z5QDzkhl5A/profile-displayphoto-scale_400_400/B4DaB4gbFoKgAg-/0/1788728161565?e=1793232000&v=beta&t=TyLCnJfNiGX6g8rNpss_aebrh4unzifVWDpaR6VEvMs",
           "width": 400,
-          "height": 400,
-          "expiresAt": 1778716800000
+          "height": 400
         },
         {
-          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFaCjziCJaUvg/profile-displayphoto-scale_200_200/B4EZyRo.stJcAY-/0/1771969967647?e=1778716800&v=beta&t=d5rsvbD7VRXT-5FDo6AIf5YXeOxE4bAnCpa7AbQdn-0",
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQE9Z5QDzkhl5A/profile-displayphoto-scale_200_200/B4DaB4gbFoKgAc-/0/1788728161565?e=1793232000&v=beta&t=BvTtnHNQ6NbKjBbIzj-N4TQDCR_OX26UdgL8_vweOt0",
           "width": 200,
-          "height": 200,
-          "expiresAt": 1778716800000
+          "height": 200
         },
         {
-          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFaCjziCJaUvg/profile-displayphoto-scale_100_100/B4EZyRo.stJcAc-/0/1771969967647?e=1778716800&v=beta&t=ogo3PHvkZNIDyhRhUoqg24ekuLPGlboXAoPnkYnquUk",
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQE9Z5QDzkhl5A/profile-displayphoto-scale_100_100/B4DaB4gbFoKgAY-/0/1788728161565?e=1793232000&v=beta&t=wtoVNcQE1GsioPuHpCx6Is-iTF9AppirAzU12wphPGM",
           "width": 100,
-          "height": 100,
-          "expiresAt": 1778716800000
+          "height": 100
         }
       ]
     },
     "coverPicture": {
-      "url": "https://media.licdn.com/dms/image/v2/D4D16AQFMDWMgFWkvSA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1733963497449?e=1778716800&v=beta&t=ZEng7NtlCiaK86RRU4GzaHzz2xmWflke5Iue9B6H_0k",
+      "url": "https://media.licdn.com/dms/image/v2/D4D16AQEtFiQDllhgWA/profile-displaybackgroundimage-shrink_350_1400/B4DaB4ftysKsAU-/0/1788727975377?e=1793232000&v=beta&t=AU8T3WlSKSJjI3Pdd4OJCF3krSSzmBllihaOr5T-HRw",
       "sizes": [
         {
-          "url": "https://media.licdn.com/dms/image/v2/D4D16AQFMDWMgFWkvSA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1733963497449?e=1778716800&v=beta&t=ZEng7NtlCiaK86RRU4GzaHzz2xmWflke5Iue9B6H_0k",
+          "url": "https://media.licdn.com/dms/image/v2/D4D16AQEtFiQDllhgWA/profile-displaybackgroundimage-shrink_350_1400/B4DaB4ftysKsAU-/0/1788727975377?e=1793232000&v=beta&t=AU8T3WlSKSJjI3Pdd4OJCF3krSSzmBllihaOr5T-HRw",
           "width": 1400,
-          "height": 350,
-          "expiresAt": 1778716800000
+          "height": 349
         },
         {
-          "url": "https://media.licdn.com/dms/image/v2/D4D16AQFMDWMgFWkvSA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1733963497449?e=1778716800&v=beta&t=XEsCZ2HT1Italzvmc15WBOLB5ZNPcmbmIj6LaxKK19g",
+          "url": "https://media.licdn.com/dms/image/v2/D4D16AQEtFiQDllhgWA/profile-displaybackgroundimage-shrink_200_800/B4DaB4ftysKsAQ-/0/1788727975377?e=1793232000&v=beta&t=vg1ZziAZzCZpp3ELnUD0hPXpKOC7oZRIJ9scEt4ENgo",
           "width": 800,
-          "height": 200,
-          "expiresAt": 1778716800000
+          "height": 199
         }
       ]
     },
-    "photo": "https://media.licdn.com/dms/image/v2/D4E03AQFaCjziCJaUvg/profile-displayphoto-crop_800_800/B4EZyRo.stJcAI-/0/1771969967539?e=1778716800&v=beta&t=_XH_Z4OVkZvldobQVVcVO8ZMVPlW7nqtgJH2WbmsvBo",
+    "photo": "https://media.licdn.com/dms/image/v2/D4D03AQE9Z5QDzkhl5A/profile-displayphoto-crop_800_800/B4DaB4gbFoKgAI-/0/1788728161565?e=1793232000&v=beta&t=s-diaFTR7qwYSX6yAOta2k1MfmCPbpldg1hLGG43U3g",
     "profileLocales": [
       {
         "country": "US",
@@ -233,27 +148,60 @@
     "services": null,
     "experience": [
       {
+        "position": "AI Engineer",
+        "location": "Paris",
+        "employmentType": "Freelance",
+        "workplaceType": null,
+        "companyName": "FirstDown",
+        "companyUniversalName": "firstdown-tech",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/firstdown-tech/",
+        "companyId": "110468960",
+        "duration": "5 mos",
+        "description": "- Developed and architected an AI tool for a Swiss active ingredients manufacturer, unifying competitor catalogs, editorial feeds and product launches to provide valuable insights for the R&D team.\n- Engineered ingestion pipelines using Playwright and Crawl4AI across multiple data sources.\n- Architected a RAG engine using LangGraph, LangChain, and PostgreSQL to synthesize competitor data and deliver automated market insights using LLMs.",
+        "skills": null,
+        "startDate": {
+          "month": "Apr",
+          "year": 2026,
+          "text": "Apr 2026"
+        },
+        "endDate": {
+          "month": "Aug",
+          "year": 2026,
+          "text": "Aug 2026"
+        },
+        "companyLogo": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF_bI3QU2I1Bw/company-logo_400_400/B4EZuVHciXHcAY-/0/1767733316267/firstdown_tech_logo?e=1793232000&v=beta&t=pqwmv8W4APHmGwj0Fxvj-XTqlRJNb70oVMLe7TOED-8",
+          "sizes": [
+            {
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF_bI3QU2I1Bw/company-logo_400_400/B4EZuVHciXHcAY-/0/1767733316267/firstdown_tech_logo?e=1793232000&v=beta&t=pqwmv8W4APHmGwj0Fxvj-XTqlRJNb70oVMLe7TOED-8",
+              "width": 400,
+              "height": 400
+            },
+            {
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF_bI3QU2I1Bw/company-logo_200_200/B4EZuVHciXHcAI-/0/1767733316267/firstdown_tech_logo?e=1793232000&v=beta&t=kf-LKHhwhm3lwvQo__A4tmnjok_SzLf4GoePt8aWbsU",
+              "width": 200,
+              "height": 200
+            },
+            {
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF_bI3QU2I1Bw/company-logo_100_100/B4EZuVHciXHcAQ-/0/1767733316267/firstdown_tech_logo?e=1793232000&v=beta&t=cIPxx_-nsGRwVedkzM5Iu_t9Rjr1CU8j3Yzl90lINLA",
+              "width": 100,
+              "height": 100
+            }
+          ]
+        }
+      },
+      {
         "position": "Automation Engineer",
         "location": "Paris",
         "employmentType": "Internship",
         "workplaceType": "On-site",
         "companyName": "SCOR",
+        "companyUniversalName": "scor",
         "companyLinkedinUrl": "https://www.linkedin.com/company/scor/",
         "companyId": "11543",
-        "companyUniversalName": "scor",
         "duration": "7 mos",
         "description": "- Implemented containerization of the application using Docker\n- Built Jenkins pipelines for CI/CD across multiple environments\n- Designed & deployed an automated non-regression pipeline on Databricks, reducing execution time by nearly 90%\n- Developed an automation framework using Playwright for frontend & backend testing with CI integration and reporting",
-        "skills": [
-          "Python",
-          "TypeScript",
-          "Node.js",
-          "Docker",
-          "Azure Databricks",
-          "PySpark",
-          "Kubernetes",
-          "Jenkins",
-          "Playwriting"
-        ],
+        "skills": null,
         "startDate": {
           "month": "Jul",
           "year": 2025,
@@ -265,25 +213,22 @@
           "text": "Jan 2026"
         },
         "companyLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_400_400/company-logo_400_400/0/1630661515928/scor_logo?e=1778716800&v=beta&t=tRQyWwf-6JuZSxokolwbNQzBDmYyKkHgy6dJ0wVd9Qo",
+          "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_400_400/company-logo_400_400/0/1630661515928/scor_logo?e=1793232000&v=beta&t=yDPB5Qtj0CfZ5l-PzOLkfA7dHc1D__lti5plauBxsQ0",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_400_400/company-logo_400_400/0/1630661515928/scor_logo?e=1778716800&v=beta&t=tRQyWwf-6JuZSxokolwbNQzBDmYyKkHgy6dJ0wVd9Qo",
+              "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_400_400/company-logo_400_400/0/1630661515928/scor_logo?e=1793232000&v=beta&t=yDPB5Qtj0CfZ5l-PzOLkfA7dHc1D__lti5plauBxsQ0",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_200_200/company-logo_200_200/0/1630661515928/scor_logo?e=1778716800&v=beta&t=2FO3do8LgqUnr7eapZ_2MgCDoHw-2xLUOvQw6YmqmE0",
+              "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_200_200/company-logo_200_200/0/1630661515928/scor_logo?e=1793232000&v=beta&t=XpqN3wsGCODjvW5ydNjVmuerbyRnoEmeNjsElpov8ms",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_100_100/company-logo_100_100/0/1630661515928/scor_logo?e=1778716800&v=beta&t=9WYaKsxpYcwpb_0PKa93y29fsqwpZIn7OvojczY3wY4",
+              "url": "https://media.licdn.com/dms/image/v2/C560BAQE2h0NFJT6XoQ/company-logo_100_100/company-logo_100_100/0/1630661515928/scor_logo?e=1793232000&v=beta&t=FItajrl_it8Nkf_pIUEDoCig7Mxn94CE0j2w8I5TSAI",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
@@ -294,30 +239,12 @@
         "employmentType": "Full-time",
         "workplaceType": "On-site",
         "companyName": "Zeus Learning",
-        "companyLinkedinUrl": "https://www.linkedin.com/company/72056/",
+        "companyUniversalName": "zeus-learning",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/zeus-learning/",
         "companyId": "72056",
         "duration": "1 yr 3 mos",
         "description": "- Collaborated with cross functional teams to design and develop reusable UI components using React.js and Angular.js, reducing front-end development time by 20%\n- Developed and optimised RESTful APIs using Node.js and Django, improving system performance by 30% through efficient data flow design\n- Deployed server less cloud solutions with AWS Lambda and DynamoDB, cutting costs by 20%\n- Automated CI/CD pipelines via GitLab, reducing deployment errors by 40%",
-        "skills": [
-          "AWS Lambda",
-          "SQL",
-          "Continuous Integration and Continuous Delivery (CI/CD)",
-          "Cascading Style Sheets (CSS)",
-          "Git",
-          "TypeScript",
-          "PostgreSQL",
-          "React.js",
-          "JavaScript",
-          "Communication",
-          "Cloud Computing",
-          "Web Services API",
-          "Node.js",
-          "Problem Solving",
-          "Critical Thinking",
-          "Amazon S3",
-          "JSON",
-          "GraphQL"
-        ],
+        "skills": null,
         "startDate": {
           "month": "Jun",
           "year": 2022,
@@ -329,25 +256,22 @@
           "text": "Aug 2023"
         },
         "companyLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFwl934MG1TDA/company-logo_400_400/company-logo_400_400/0/1642089403387/zeus_learning_logo?e=1778716800&v=beta&t=v6DkuLiXbPLZFFqcmGiRjccaoGNyEeJWTjUfbKj3bVw",
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFwl934MG1TDA/company-logo_400_400/company-logo_400_400/0/1642089403387/zeus_learning_logo?e=1793232000&v=beta&t=o-zNYaoanjmNVq7x7jz--yL3zsz8-gNiPWlYQHlvf18",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFwl934MG1TDA/company-logo_400_400/company-logo_400_400/0/1642089403387/zeus_learning_logo?e=1778716800&v=beta&t=v6DkuLiXbPLZFFqcmGiRjccaoGNyEeJWTjUfbKj3bVw",
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFwl934MG1TDA/company-logo_400_400/company-logo_400_400/0/1642089403387/zeus_learning_logo?e=1793232000&v=beta&t=o-zNYaoanjmNVq7x7jz--yL3zsz8-gNiPWlYQHlvf18",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFwl934MG1TDA/company-logo_200_200/company-logo_200_200/0/1642089403387/zeus_learning_logo?e=1778716800&v=beta&t=WYPIxf70f8Q0G4TdzYZ_3ZUDlnJ54pYo_StBk2T4iGU",
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFwl934MG1TDA/company-logo_200_200/company-logo_200_200/0/1642089403387/zeus_learning_logo?e=1793232000&v=beta&t=AX3XRv9b5PHaSTKeNNY_2Dbz4aH9w-PloOO6-mKK_jY",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFwl934MG1TDA/company-logo_100_100/company-logo_100_100/0/1642089403387/zeus_learning_logo?e=1778716800&v=beta&t=gpUzEUWW1U_Xo71p3RafFq8yQgEF5_VIFy1hZWsmhao",
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFwl934MG1TDA/company-logo_100_100/company-logo_100_100/0/1642089403387/zeus_learning_logo?e=1793232000&v=beta&t=U7-twWVUJYVWMy934cV-4aPZ1sSuyVic_MapuQNCnu8",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
@@ -358,17 +282,12 @@
         "employmentType": null,
         "workplaceType": null,
         "companyName": "Foslipy C.S Pvt Ltd",
-        "companyLinkedinUrl": "https://www.linkedin.com/company/13636235/",
+        "companyUniversalName": "foslipy",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/foslipy/",
         "companyId": "13636235",
         "duration": "1 mo",
         "description": "- Trained a batch of 100 students, covering foundational cloud concepts and deployment strategies\n- Conducted comprehensive hands-on lab sessions on core AWS services such as IAM, EC2, S3, Lambda and Amplify",
-        "skills": [
-          "AWS Lambda",
-          "Amazon EC2",
-          "Amazon Web Services (AWS)",
-          "AWS Identity and Access Management (AWS IAM)",
-          "Amazon S3"
-        ],
+        "skills": null,
         "startDate": {
           "month": "Jan",
           "year": 2023,
@@ -380,25 +299,22 @@
           "text": "Jan 2023"
         },
         "companyLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/C560BAQFeg-XLMPbmHQ/company-logo_400_400/company-logo_400_400/0/1631333014787?e=1778716800&v=beta&t=ndTS-1SfcQsbVAN588GKwRX7077ac6djaAa4Ggj-0r0",
+          "url": "https://media.licdn.com/dms/image/v2/C560BAQFeg-XLMPbmHQ/company-logo_400_400/company-logo_400_400/0/1631333014787?e=1793232000&v=beta&t=rB2WlmgppqjxwWV6yZcYuCIb80r2Gg9yDIIs7cay7tw",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQFeg-XLMPbmHQ/company-logo_400_400/company-logo_400_400/0/1631333014787?e=1778716800&v=beta&t=ndTS-1SfcQsbVAN588GKwRX7077ac6djaAa4Ggj-0r0",
+              "url": "https://media.licdn.com/dms/image/v2/C560BAQFeg-XLMPbmHQ/company-logo_400_400/company-logo_400_400/0/1631333014787?e=1793232000&v=beta&t=rB2WlmgppqjxwWV6yZcYuCIb80r2Gg9yDIIs7cay7tw",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQFeg-XLMPbmHQ/company-logo_200_200/company-logo_200_200/0/1631333014787?e=1778716800&v=beta&t=3v_cf6lfwcOL_WcebNNaiJxWga5FSY73S_2QayDIDvA",
+              "url": "https://media.licdn.com/dms/image/v2/C560BAQFeg-XLMPbmHQ/company-logo_200_200/company-logo_200_200/0/1631333014787?e=1793232000&v=beta&t=nJeVxTMiz9r-lz791r-TSRrSKHTihXJTwO5ldX5GLbE",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQFeg-XLMPbmHQ/company-logo_100_100/company-logo_100_100/0/1631333014787?e=1778716800&v=beta&t=H8Gdo--FWRLX0BZdGKX3u4nYay4tj_ACy-KDEhE2H8s",
+              "url": "https://media.licdn.com/dms/image/v2/C560BAQFeg-XLMPbmHQ/company-logo_100_100/company-logo_100_100/0/1631333014787?e=1793232000&v=beta&t=Q49QERtiSZ639Gy9NGtejyz6_w3El7hcrj-aiNobs1k",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
@@ -409,13 +325,12 @@
         "employmentType": "Internship",
         "workplaceType": null,
         "companyName": "The Sparks Foundation",
-        "companyLinkedinUrl": "https://www.linkedin.com/company/13625083/",
+        "companyUniversalName": "the-sparks-foundation",
+        "companyLinkedinUrl": "https://www.linkedin.com/company/the-sparks-foundation/",
         "companyId": "13625083",
         "duration": "2 mos",
         "description": null,
-        "skills": [
-          "Cloud Computing"
-        ],
+        "skills": null,
         "startDate": {
           "month": "Jan",
           "year": 2022,
@@ -427,25 +342,22 @@
           "text": "Feb 2022"
         },
         "companyLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/C560BAQFgHU3sTF4LfQ/company-logo_400_400/company-logo_400_400/0/1631365213896?e=1778716800&v=beta&t=PiXlKB3krJr-CTKGLje2AoRg8vXoWRCdxTP0HQizfm8",
+          "url": "https://media.licdn.com/dms/image/v2/C560BAQFgHU3sTF4LfQ/company-logo_400_400/company-logo_400_400/0/1631365213896?e=1793232000&v=beta&t=1iSUwEVI5yC1WCM-3gWJquUMSJBwHBaus_jmIB9ivF0",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQFgHU3sTF4LfQ/company-logo_400_400/company-logo_400_400/0/1631365213896?e=1778716800&v=beta&t=PiXlKB3krJr-CTKGLje2AoRg8vXoWRCdxTP0HQizfm8",
+              "url": "https://media.licdn.com/dms/image/v2/C560BAQFgHU3sTF4LfQ/company-logo_400_400/company-logo_400_400/0/1631365213896?e=1793232000&v=beta&t=1iSUwEVI5yC1WCM-3gWJquUMSJBwHBaus_jmIB9ivF0",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQFgHU3sTF4LfQ/company-logo_200_200/company-logo_200_200/0/1631365213896?e=1778716800&v=beta&t=tQNqt76RV-vt3eKYW4vJ1NA01XM-83VNockUQ9zOlvQ",
+              "url": "https://media.licdn.com/dms/image/v2/C560BAQFgHU3sTF4LfQ/company-logo_200_200/company-logo_200_200/0/1631365213896?e=1793232000&v=beta&t=ybO3S-OMVuL-nk12KXydK6kITyyjL9xA7T8YYk9f5f4",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C560BAQFgHU3sTF4LfQ/company-logo_100_100/company-logo_100_100/0/1631365213896?e=1778716800&v=beta&t=sGiZGHS-DB5Y5tfnlAPlvj6vdppcxaTVt9hAnSP0XrY",
+              "url": "https://media.licdn.com/dms/image/v2/C560BAQFgHU3sTF4LfQ/company-logo_100_100/company-logo_100_100/0/1631365213896?e=1793232000&v=beta&t=-opQutyUrwB1A3ZPVpk9vpqhqF_XEyM7yPNzAEbZIW0",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
@@ -454,576 +366,511 @@
     "education": [
       {
         "schoolName": "EPITA: Ecole d'Ingénieurs en Informatique",
+        "description": null,
+        "insights": null,
+        "skills": null,
         "schoolLinkedinUrl": "https://www.linkedin.com/company/15106487/",
         "schoolId": "15106487",
         "degree": "Masters in Computer Science",
         "fieldOfStudy": "Software Engineering",
-        "skills": [
-          "AngularJS",
-          "Git",
-          "Problem Solving",
-          "JSON",
-          "Critical Thinking",
-          "Python",
-          "React.js",
-          "JavaScript",
-          ".NET Framework",
-          "AWS Lambda",
-          "SQL",
-          "Data Structures",
-          "Cascading Style Sheets (CSS)",
-          "Object-Oriented Programming (OOP)",
-          "Docker",
-          "Amazon EC2",
-          "Kotlin",
-          "PostgreSQL",
-          "Java",
-          "Android",
-          "C++",
-          "MongoDB",
-          "Communication",
-          "Algorithms",
-          "Web Services API",
-          "HTML5",
-          "Continuous Integration and Continuous Delivery (CI/CD)",
-          "C (Programming Language)",
-          "Cloud Computing",
-          "Machine Learning",
-          "Node.js"
-        ],
+        "period": "Feb 2024 - Apr 2026",
         "startDate": {
+          "text": "Feb 2024",
           "month": "Feb",
-          "year": 2024,
-          "text": "Feb 2024"
+          "year": 2024
         },
         "endDate": {
-          "month": "Aug",
-          "year": 2025,
-          "text": "Aug 2025"
+          "text": "Apr 2026",
+          "month": "Apr",
+          "year": 2026
         },
-        "period": "Feb 2024 - Aug 2025",
         "schoolLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFIl-T5QJZDlA/company-logo_400_400/B4EZ0q4mNJHsAY-/0/1774540973420/epita_ecole_ingenieurs_informatique_logo?e=1778716800&v=beta&t=cVm6Q7Lyv5EQFCjchf0Hfl-de_7nuU6ZDIaW8hory14",
+          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEpmyn_pnI1Ug/company-logo_400_400/B4EZ6YSYUbJIAU-/0/1780671415887/epita_ecole_ingenieurs_informatique_logo?e=1793232000&v=beta&t=6kdC32ujQVDuoJQWvGa7t8GGf5_MLFACuFk029Vowyk",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFIl-T5QJZDlA/company-logo_400_400/B4EZ0q4mNJHsAY-/0/1774540973420/epita_ecole_ingenieurs_informatique_logo?e=1778716800&v=beta&t=cVm6Q7Lyv5EQFCjchf0Hfl-de_7nuU6ZDIaW8hory14",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEpmyn_pnI1Ug/company-logo_400_400/B4EZ6YSYUbJIAU-/0/1780671415887/epita_ecole_ingenieurs_informatique_logo?e=1793232000&v=beta&t=6kdC32ujQVDuoJQWvGa7t8GGf5_MLFACuFk029Vowyk",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFIl-T5QJZDlA/company-logo_200_200/B4EZ0q4mNJHsAI-/0/1774540973420/epita_ecole_ingenieurs_informatique_logo?e=1778716800&v=beta&t=xKY-6b1lHSeEyy38j7Kl4h6ZySBG1oc6MbLmPairRQc",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEpmyn_pnI1Ug/company-logo_200_200/B4EZ6YSYUbJIAE-/0/1780671415887/epita_ecole_ingenieurs_informatique_logo?e=1793232000&v=beta&t=CgAh1oHwA0FUUgW_8J-RGb-I1TA-1SSerD3Znh0_UX8",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFIl-T5QJZDlA/company-logo_100_100/B4EZ0q4mNJHsAQ-/0/1774540973420/epita_ecole_ingenieurs_informatique_logo?e=1778716800&v=beta&t=vu2plc1QAv3zGVzIV7s6t5PCDZLYnaARNpDHX73OlGE",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEpmyn_pnI1Ug/company-logo_100_100/B4EZ6YSYUbJIAI-/0/1780671415886/epita_ecole_ingenieurs_informatique_logo?e=1793232000&v=beta&t=fvrCiq91kc4Z5J2NLHdGf67H58LnoXMv8ltTEuG-Rkc",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
       },
       {
         "schoolName": "University of Mumbai",
+        "description": null,
+        "insights": null,
+        "skills": null,
         "schoolLinkedinUrl": "https://www.linkedin.com/company/15093732/",
         "schoolId": "15093732",
         "degree": "Bachelor's degree",
         "fieldOfStudy": "Computer Engineering",
-        "skills": [
-          "Git",
-          "Problem Solving",
-          "Critical Thinking",
-          "Python",
-          "JavaScript",
-          "SQL",
-          "Data Structures",
-          "Cascading Style Sheets (CSS)",
-          "Object-Oriented Programming (OOP)",
-          "Natural Language Processing (NLP)",
-          "PostgreSQL",
-          "WebSocket",
-          "Android",
-          "Communication",
-          "Algorithms",
-          "PHP",
-          "Web Services API",
-          "HTML5",
-          "C (Programming Language)",
-          "Cloud Computing"
-        ],
-        "insights": "Grade: 8.41 CGPA",
+        "period": "2018 - 2022",
         "startDate": {
-          "year": 2018,
-          "text": "2018"
+          "text": "2018",
+          "year": 2018
         },
         "endDate": {
-          "year": 2022,
-          "text": "2022"
+          "text": "2022",
+          "year": 2022
         },
-        "period": "2018 - 2022",
         "schoolLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGsu_DimiqUow/company-logo_400_400/company-logo_400_400/0/1631357817785?e=1778716800&v=beta&t=BTKbSaTy-4gBrZhFalivhRqlr5w6C0X3LvGSQ40ftnE",
+          "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGsu_DimiqUow/company-logo_400_400/company-logo_400_400/0/1631357817785?e=1793232000&v=beta&t=ye-ZAa-OPdSLVt9r8yhydaFlB9KjgDo_H04WkSmha2w",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGsu_DimiqUow/company-logo_400_400/company-logo_400_400/0/1631357817785?e=1778716800&v=beta&t=BTKbSaTy-4gBrZhFalivhRqlr5w6C0X3LvGSQ40ftnE",
+              "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGsu_DimiqUow/company-logo_400_400/company-logo_400_400/0/1631357817785?e=1793232000&v=beta&t=ye-ZAa-OPdSLVt9r8yhydaFlB9KjgDo_H04WkSmha2w",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGsu_DimiqUow/company-logo_200_200/company-logo_200_200/0/1631357817785?e=1778716800&v=beta&t=o8TSenJsS1tsNb_eZGIupxCCA9BRco4oSkFr8k2baB0",
+              "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGsu_DimiqUow/company-logo_200_200/company-logo_200_200/0/1631357817785?e=1793232000&v=beta&t=BDHNONznUhQenOXO_Mc2Hi9jTeTT5jbYVeugECCfZuM",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGsu_DimiqUow/company-logo_100_100/company-logo_100_100/0/1631357817785?e=1778716800&v=beta&t=2vAXJGdWwIBVxGext_V7RRb32PsPsYHj5KspeFM3fIs",
+              "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGsu_DimiqUow/company-logo_100_100/company-logo_100_100/0/1631357817785?e=1793232000&v=beta&t=N9p_Eier7DbAIJOB-YVzzUcwFZKP_hHY8wWc_pDPjeY",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
       },
       {
-        "schoolName": "The Royal Higher Education Societys College of Arts Science and Commerce,Thane",
+        "schoolName": "Royal College of Arts, Science and Commerce",
+        "description": "HSC (Maharashtra State Board of Secondary and Higher Education)",
+        "insights": "Activities and societies: Football, Table Tennis, Badminton, Chess",
+        "skills": null,
         "schoolLinkedinUrl": "https://www.linkedin.com/company/15118376/",
         "schoolId": "15118376",
         "degree": null,
         "fieldOfStudy": null,
-        "skills": [
-          "JavaScript",
-          "Cascading Style Sheets (CSS)",
-          "Communication",
-          "HTML5",
-          "C (Programming Language)"
-        ],
-        "description": "HSC (Maharashtra State Board of Secondary and Higher Education)",
-        "insights": "Grade: 83.69%\nActivities and societies: Football, Table Tennis, Badminton, Chess",
+        "period": "2016 - 2018",
         "startDate": {
-          "year": 2016,
-          "text": "2016"
+          "text": "2016",
+          "year": 2016
         },
         "endDate": {
-          "year": 2018,
-          "text": "2018"
+          "text": "2018",
+          "year": 2018
         },
-        "period": "2016 - 2018",
         "schoolLogo": null
       },
       {
         "schoolName": "N.L. Dalmia High School - India",
-        "schoolLinkedinUrl": "https://www.linkedin.com/company/7918291/",
+        "description": "ICSE Board",
+        "insights": "Activities and societies: Football, Table Tennis, Badminton, Chess",
+        "skills": null,
+        "schoolLinkedinUrl": null,
         "schoolId": null,
         "degree": null,
         "fieldOfStudy": null,
-        "skills": [
-          "JavaScript",
-          "Cascading Style Sheets (CSS)",
-          "Communication",
-          "HTML5"
-        ],
-        "description": "ICSE Board",
-        "insights": "Grade: 91.33%\nActivities and societies: Football, Table Tennis, Badminton, Chess",
+        "period": null,
         "startDate": null,
         "endDate": {
-          "year": 2016,
-          "text": "2016"
+          "text": "2016",
+          "year": 2016
         },
-        "period": "2016",
         "schoolLogo": null
       }
     ],
     "certifications": [
       {
-        "title": "Snowflake Generative AI Professional Certificate",
-        "issuedAt": "Issued Apr 2026",
-        "link": "https://coursera.org/verify/professional-cert/BOPVMZJONITR",
+        "title": "Snowflake Data Engineering Professional Certificate",
         "issuedBy": "Snowflake",
+        "issuedAt": "Sep 2026",
+        "link": "https://coursera.org/verify/professional-cert/0TDWY6DM7KM4",
+        "credentialId": "0TDWY6DM7KM4",
         "issuedByLink": "https://www.linkedin.com/company/3653845/",
         "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_400_400/company-logo_400_400/0/1688575708630/snowflake_computing_logo?e=1778716800&v=beta&t=2_WGutSKVb_LBUnq4WryHWeVwhI3KfciZglUVreDB3w",
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_400_400/company-logo_400_400/0/1688575708630/snowflake_computing_logo?e=1793232000&v=beta&t=E1IUK0qbAe0vpP_2PEaS0KAfYb1pje9pqiNSKdJtnN0",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_400_400/company-logo_400_400/0/1688575708630/snowflake_computing_logo?e=1778716800&v=beta&t=2_WGutSKVb_LBUnq4WryHWeVwhI3KfciZglUVreDB3w",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_400_400/company-logo_400_400/0/1688575708630/snowflake_computing_logo?e=1793232000&v=beta&t=E1IUK0qbAe0vpP_2PEaS0KAfYb1pje9pqiNSKdJtnN0",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_200_200/company-logo_200_200/0/1688575708630/snowflake_computing_logo?e=1778716800&v=beta&t=gR-sgJcmSGKNHPfMUpcRgCmA6Knt2uClZTzHAycDmVM",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_200_200/company-logo_200_200/0/1688575708630/snowflake_computing_logo?e=1793232000&v=beta&t=pddzyIw4SqGxbXKje6ijmBLMKgLuKe6yNT-fWMcJnqw",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_100_100/company-logo_100_100/0/1688575708630/snowflake_computing_logo?e=1778716800&v=beta&t=Qomwkgxw_0_oWgNsEsmdUR6Z94qPISSPSJr4PCZyXdY",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_100_100/company-logo_100_100/0/1688575708630/snowflake_computing_logo?e=1793232000&v=beta&t=wY_L2Lu4R2M6m-W5adWKjwuH87PfUoJZz3Z_0GWeDmo",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
+            }
+          ]
+        }
+      },
+      {
+        "title": "Snowflake Generative AI Professional Certificate",
+        "issuedBy": "Snowflake",
+        "issuedAt": "Apr 2026",
+        "link": "https://coursera.org/verify/professional-cert/BOPVMZJONITR",
+        "credentialId": "BOPVMZJONITR",
+        "issuedByLink": "https://www.linkedin.com/company/3653845/",
+        "issuedByLogo": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_400_400/company-logo_400_400/0/1688575708630/snowflake_computing_logo?e=1793232000&v=beta&t=E1IUK0qbAe0vpP_2PEaS0KAfYb1pje9pqiNSKdJtnN0",
+          "sizes": [
+            {
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_400_400/company-logo_400_400/0/1688575708630/snowflake_computing_logo?e=1793232000&v=beta&t=E1IUK0qbAe0vpP_2PEaS0KAfYb1pje9pqiNSKdJtnN0",
+              "width": 400,
+              "height": 400
+            },
+            {
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_200_200/company-logo_200_200/0/1688575708630/snowflake_computing_logo?e=1793232000&v=beta&t=pddzyIw4SqGxbXKje6ijmBLMKgLuKe6yNT-fWMcJnqw",
+              "width": 200,
+              "height": 200
+            },
+            {
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQF3mYS3WqCB3g/company-logo_100_100/company-logo_100_100/0/1688575708630/snowflake_computing_logo?e=1793232000&v=beta&t=wY_L2Lu4R2M6m-W5adWKjwuH87PfUoJZz3Z_0GWeDmo",
+              "width": 100,
+              "height": 100
             }
           ]
         }
       },
       {
         "title": "Google AI Essentials",
-        "issuedAt": "Issued Feb 2026",
-        "link": "https://www.coursera.org/account/accomplishments/specialization/HYDJXPOLFZZP",
         "issuedBy": "Google",
+        "issuedAt": "Feb 2026",
+        "link": "https://www.coursera.org/account/accomplishments/specialization/HYDJXPOLFZZP",
+        "credentialId": "HYDJXPOLFZZP",
         "issuedByLink": "https://www.linkedin.com/company/1441/",
         "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1778716800&v=beta&t=jVtPfPmE47UgqFMDhG9AePqEF8h1u-fQzyQhyiPlpvk",
+          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1793232000&v=beta&t=mI4Bwg5fs62z2HpOijmRD-H8xT_owPQfiOlcUvQBg3s",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1778716800&v=beta&t=jVtPfPmE47UgqFMDhG9AePqEF8h1u-fQzyQhyiPlpvk",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1793232000&v=beta&t=mI4Bwg5fs62z2HpOijmRD-H8xT_owPQfiOlcUvQBg3s",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1778716800&v=beta&t=JQCZtvE263vAwSSJPfIQmlHXjlKHM1v1FQrcMHWH5Tg",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1793232000&v=beta&t=eoBBlfh2cCo8lP_3ZoDevu0ibsZsjTU7e87o5Fe3VMo",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1778716800&v=beta&t=oyauLAhMKDwroENjxT3iSuFHhYNWyLar32I5PYYRS2g",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1793232000&v=beta&t=g4MDFCc4QYZLXKb4CZNLJ1r25ttU0n4xVisWnTAZN-k",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
       },
       {
         "title": "AI in Production",
-        "issuedAt": "Issued Oct 2025",
-        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/AI+in+Production+(by+Udemy).pdf",
         "issuedBy": "Udemy",
+        "issuedAt": "Oct 2025",
+        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/AI+in+Production+(by+Udemy).pdf",
+        "credentialId": "UC-4fd7b56e-f970-4c1a-8814-1dc1281ff115",
         "issuedByLink": "https://www.linkedin.com/company/822535/",
         "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1778716800&v=beta&t=idRIMtPAGSLzXh24UW58iM2JsqpveoDqZp56Ww6V1zs",
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1793232000&v=beta&t=kCfPe90PMoCceWY-6SRAngRvJuKitPaUfPsShw45bu0",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1778716800&v=beta&t=idRIMtPAGSLzXh24UW58iM2JsqpveoDqZp56Ww6V1zs",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1793232000&v=beta&t=kCfPe90PMoCceWY-6SRAngRvJuKitPaUfPsShw45bu0",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1778716800&v=beta&t=UawIlgZrfuO-jRGElX1hzeQVgiI_6Jaj-jZAOfebv-0",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1793232000&v=beta&t=GIP3m-SP1I12zzy-zazq67uXA-bj_LvkdqRcyzfTOPU",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1778716800&v=beta&t=Wte4_HQVb9n3d0NvpAdipMfVj75b3cIec66JWC1aK24",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1793232000&v=beta&t=9t2p_1MwYMjcgjrZYyEwxLAgfVftQlZVEnXYXrS6BHU",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
       },
       {
         "title": "AWS Bedrock - The Complete Guide to AWS Generative AI",
-        "issuedAt": "Issued Feb 2025",
-        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/AWS+Bedrock+-+The+Complete+Guide+to+AWS+Generative+AI+(by+Udemy).pdf",
         "issuedBy": "Udemy",
+        "issuedAt": "Feb 2025",
+        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/AWS+Bedrock+-+The+Complete+Guide+to+AWS+Generative+AI+(by+Udemy).pdf",
+        "credentialId": null,
         "issuedByLink": "https://www.linkedin.com/company/822535/",
         "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1778716800&v=beta&t=idRIMtPAGSLzXh24UW58iM2JsqpveoDqZp56Ww6V1zs",
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1793232000&v=beta&t=kCfPe90PMoCceWY-6SRAngRvJuKitPaUfPsShw45bu0",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1778716800&v=beta&t=idRIMtPAGSLzXh24UW58iM2JsqpveoDqZp56Ww6V1zs",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_400_400/company-logo_400_400/0/1723593046388/udemy_logo?e=1793232000&v=beta&t=kCfPe90PMoCceWY-6SRAngRvJuKitPaUfPsShw45bu0",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1778716800&v=beta&t=UawIlgZrfuO-jRGElX1hzeQVgiI_6Jaj-jZAOfebv-0",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1793232000&v=beta&t=GIP3m-SP1I12zzy-zazq67uXA-bj_LvkdqRcyzfTOPU",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1778716800&v=beta&t=Wte4_HQVb9n3d0NvpAdipMfVj75b3cIec66JWC1aK24",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_100_100/company-logo_100_100/0/1723593046388/udemy_logo?e=1793232000&v=beta&t=9t2p_1MwYMjcgjrZYyEwxLAgfVftQlZVEnXYXrS6BHU",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
-            }
-          ]
-        }
-      },
-      {
-        "title": "ASP .NET Core Advance",
-        "issuedAt": "Issued Jun 2019",
-        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/ASP.NET+Core+-+Advanced+(by+Microsoft+Virtual+Academy).pdf",
-        "issuedBy": "Microsoft",
-        "issuedByLink": "https://www.linkedin.com/company/1035/",
-        "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1778716800&v=beta&t=i_6y4YORU_ZTo6p0nZHyvfr6JIYYfEdwEp_-fKmil_A",
-          "sizes": [
-            {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1778716800&v=beta&t=i_6y4YORU_ZTo6p0nZHyvfr6JIYYfEdwEp_-fKmil_A",
-              "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
-            },
-            {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1778716800&v=beta&t=FJY6RJr1_hBUXTVY82oZy9BGHEYeNUznqMxsHeL021Y",
-              "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
-            },
-            {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1778716800&v=beta&t=yhCG_9tIy97plyj-EzhkTzFKeoOdfmz5Uc05X4kLbCs",
-              "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
       },
       {
         "title": "AWS Certified Developer Associate",
-        "issuedAt": "Issued Nov 2023",
-        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/AWS+Certified+Developer+-+Associate+certificate.pdf",
         "issuedBy": "Amazon Web Services (AWS)",
+        "issuedAt": "Nov 2023",
+        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/AWS+Certified+Developer+-+Associate+certificate.pdf",
+        "credentialId": "1S14L8LKVJEQ1CCE",
         "issuedByLink": "https://www.linkedin.com/company/2382910/",
         "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=gaD1KaJffdh-4vmhR4IDFv9zjBfaJbOPIxgsX19yzvc",
+          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=BrxSH1WpUzcJpBDIiUNqHP7cmwItJfNTjh3LRfWcbRE",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=gaD1KaJffdh-4vmhR4IDFv9zjBfaJbOPIxgsX19yzvc",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=BrxSH1WpUzcJpBDIiUNqHP7cmwItJfNTjh3LRfWcbRE",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=Raxl2alyZe_eztJLjtaL8bs8ON_MDGA1xECVCMjUQXA",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=Er_4VLGeosNNZYTH_ZlO3rRklpM61lrneRMje0hvcIQ",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=IEBpkHjZLptWf8__iKrHAVNNcdjVR_eK1LsHUGTsQa4",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=u-iqtWKurtFgW7ABE6LN0fJCCBo1ClBDH6CmWtIGeQ4",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
-            }
-          ]
-        }
-      },
-      {
-        "title": "Machine Learning for All",
-        "issuedAt": "Issued Aug 2020",
-        "link": "https://www.coursera.org/account/accomplishments/verify/2UUNB5JTMCXJ",
-        "issuedBy": "University of London",
-        "issuedByLink": "https://www.linkedin.com/company/166649/",
-        "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEOzeRRDtb0PA/company-logo_400_400/B4EZfvR0X.GwAk-/0/1752066115520/university_of_london_logo?e=1778716800&v=beta&t=bezop2uxwwiwKLMGM5EBCsyatgY6wy4VSajprUk_Vtg",
-          "sizes": [
-            {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEOzeRRDtb0PA/company-logo_400_400/B4EZfvR0X.GwAk-/0/1752066115520/university_of_london_logo?e=1778716800&v=beta&t=bezop2uxwwiwKLMGM5EBCsyatgY6wy4VSajprUk_Vtg",
-              "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
-            },
-            {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEOzeRRDtb0PA/company-logo_200_200/B4EZfvR0X.GwAU-/0/1752066115520/university_of_london_logo?e=1778716800&v=beta&t=TH-VeYYtfP0ayYY8k3jGWCcodD9hXfEXQ--4x4vX0iE",
-              "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
-            },
-            {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEOzeRRDtb0PA/company-logo_100_100/B4EZfvR0X.GwAc-/0/1752066115520/university_of_london_logo?e=1778716800&v=beta&t=_gZ4wv7xsVnrlRrZpiUJkCRhq9Z7wLwapQ6yv8Q65wQ",
-              "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
-            }
-          ]
-        }
-      },
-      {
-        "title": "AWS Solutions Architect Associate",
-        "issuedAt": "Issued Sep 2021",
-        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/Solutions+Architect+-+Certificate+of+Completion+(by+Intellipaat).pdf",
-        "issuedBy": "Intellipaat",
-        "issuedByLink": "https://www.linkedin.com/company/2926670/",
-        "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHeUmja6RtN7A/company-logo_400_400/company-logo_400_400/0/1661429311764/intellipaat_software_solutions_logo?e=1778716800&v=beta&t=HQMoNe09xy07EBV6ymYwtJ3AB8_Bu_HjDivYOftUJi0",
-          "sizes": [
-            {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHeUmja6RtN7A/company-logo_400_400/company-logo_400_400/0/1661429311764/intellipaat_software_solutions_logo?e=1778716800&v=beta&t=HQMoNe09xy07EBV6ymYwtJ3AB8_Bu_HjDivYOftUJi0",
-              "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
-            },
-            {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHeUmja6RtN7A/company-logo_200_200/company-logo_200_200/0/1661429311764/intellipaat_software_solutions_logo?e=1778716800&v=beta&t=C-qkotaHAHQEcQhWMTOujbaW3OmZdzSALGWc238a5Yk",
-              "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
-            },
-            {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHeUmja6RtN7A/company-logo_100_100/company-logo_100_100/0/1661429311764/intellipaat_software_solutions_logo?e=1778716800&v=beta&t=ZMzHyr6Qqp2ns9xG4VllttaBvDCBTmANeoIazon_7cw",
-              "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
       },
       {
         "title": "AWS Certified Cloud Practitioner",
-        "issuedAt": "Issued Dec 2021",
-        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/AWS+Certified+Cloud+Practitioner+certificate.pdf",
         "issuedBy": "Amazon Web Services (AWS)",
+        "issuedAt": "Dec 2021",
+        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/AWS+Certified+Cloud+Practitioner+certificate.pdf",
+        "credentialId": "3E8JR4VDNEQQQN97",
         "issuedByLink": "https://www.linkedin.com/company/2382910/",
         "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=gaD1KaJffdh-4vmhR4IDFv9zjBfaJbOPIxgsX19yzvc",
+          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=BrxSH1WpUzcJpBDIiUNqHP7cmwItJfNTjh3LRfWcbRE",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=gaD1KaJffdh-4vmhR4IDFv9zjBfaJbOPIxgsX19yzvc",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=BrxSH1WpUzcJpBDIiUNqHP7cmwItJfNTjh3LRfWcbRE",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=Raxl2alyZe_eztJLjtaL8bs8ON_MDGA1xECVCMjUQXA",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=Er_4VLGeosNNZYTH_ZlO3rRklpM61lrneRMje0hvcIQ",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=IEBpkHjZLptWf8__iKrHAVNNcdjVR_eK1LsHUGTsQa4",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=u-iqtWKurtFgW7ABE6LN0fJCCBo1ClBDH6CmWtIGeQ4",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
+            }
+          ]
+        }
+      },
+      {
+        "title": "AWS Solutions Architect Associate",
+        "issuedBy": "Intellipaat",
+        "issuedAt": "Sep 2021",
+        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/Solutions+Architect+-+Certificate+of+Completion+(by+Intellipaat).pdf",
+        "credentialId": "31679-91118-120931",
+        "issuedByLink": "https://www.linkedin.com/company/2926670/",
+        "issuedByLogo": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHeUmja6RtN7A/company-logo_400_400/company-logo_400_400/0/1661429311764/intellipaat_software_solutions_logo?e=1793232000&v=beta&t=9prUoOVr8U9CDekJ4HN-SYh_u6sxnAykcIaa0Iy_v1w",
+          "sizes": [
+            {
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHeUmja6RtN7A/company-logo_400_400/company-logo_400_400/0/1661429311764/intellipaat_software_solutions_logo?e=1793232000&v=beta&t=9prUoOVr8U9CDekJ4HN-SYh_u6sxnAykcIaa0Iy_v1w",
+              "width": 400,
+              "height": 400
+            },
+            {
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHeUmja6RtN7A/company-logo_200_200/company-logo_200_200/0/1661429311764/intellipaat_software_solutions_logo?e=1793232000&v=beta&t=OnpflY-0B3eN2rXQWqht6OkAbovA91kiMG2du-Rj8Es",
+              "width": 200,
+              "height": 200
+            },
+            {
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHeUmja6RtN7A/company-logo_100_100/company-logo_100_100/0/1661429311764/intellipaat_software_solutions_logo?e=1793232000&v=beta&t=Q0nvGKk3QRb3J4pJRIxv4CDuje387SQsB993GW3JSrE",
+              "width": 100,
+              "height": 100
             }
           ]
         }
       },
       {
         "title": "Building Modern Python Applications on AWS",
-        "issuedAt": "Issued Jul 2021",
-        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/Building+Modern+Python+Applications+on+AWS+(by+edX).pdf",
         "issuedBy": "Amazon Web Services (AWS)",
+        "issuedAt": "Jul 2021",
+        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/Building+Modern+Python+Applications+on+AWS+(by+edX).pdf",
+        "credentialId": "d099b1da122645d3b650c68eca626220",
         "issuedByLink": "https://www.linkedin.com/company/2382910/",
         "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=gaD1KaJffdh-4vmhR4IDFv9zjBfaJbOPIxgsX19yzvc",
+          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=BrxSH1WpUzcJpBDIiUNqHP7cmwItJfNTjh3LRfWcbRE",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=gaD1KaJffdh-4vmhR4IDFv9zjBfaJbOPIxgsX19yzvc",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=BrxSH1WpUzcJpBDIiUNqHP7cmwItJfNTjh3LRfWcbRE",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=Raxl2alyZe_eztJLjtaL8bs8ON_MDGA1xECVCMjUQXA",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=Er_4VLGeosNNZYTH_ZlO3rRklpM61lrneRMje0hvcIQ",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1778716800&v=beta&t=IEBpkHjZLptWf8__iKrHAVNNcdjVR_eK1LsHUGTsQa4",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793232000&v=beta&t=u-iqtWKurtFgW7ABE6LN0fJCCBo1ClBDH6CmWtIGeQ4",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
       },
       {
         "title": "Web Programming with Python and JavaScript",
-        "issuedAt": "Issued Mar 2021",
-        "link": "https://courses.edx.org/certificates/17d00de86a0f4da29b528569754dec24",
         "issuedBy": "HarvardX",
+        "issuedAt": "Mar 2021",
+        "link": "https://courses.edx.org/certificates/17d00de86a0f4da29b528569754dec24",
+        "credentialId": "17d00de86a0f4da29b528569754dec24",
         "issuedByLink": "https://www.linkedin.com/company/79650726/",
         "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/D560BAQHtTRhUFrwfEw/company-logo_400_400/company-logo_400_400/0/1738994058346/harvard_x_logo?e=1778716800&v=beta&t=EX7ffNsc35ACQ0wpOtwhtsnnul0CQpvbPx5gPD3Pm70",
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQHtTRhUFrwfEw/company-logo_400_400/company-logo_400_400/0/1738994058346/harvard_x_logo?e=1793232000&v=beta&t=Yimidz1dIdp1YQO_uJv4y2yM8k4Angl5DQnbgcWNLjM",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQHtTRhUFrwfEw/company-logo_400_400/company-logo_400_400/0/1738994058346/harvard_x_logo?e=1778716800&v=beta&t=EX7ffNsc35ACQ0wpOtwhtsnnul0CQpvbPx5gPD3Pm70",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQHtTRhUFrwfEw/company-logo_400_400/company-logo_400_400/0/1738994058346/harvard_x_logo?e=1793232000&v=beta&t=Yimidz1dIdp1YQO_uJv4y2yM8k4Angl5DQnbgcWNLjM",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQHtTRhUFrwfEw/company-logo_200_200/company-logo_200_200/0/1738994058346/harvard_x_logo?e=1778716800&v=beta&t=_D716yGjM8375zJNl7sgMdJHakXtmuMUDKjA8wXGvXY",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQHtTRhUFrwfEw/company-logo_200_200/company-logo_200_200/0/1738994058346/harvard_x_logo?e=1793232000&v=beta&t=TCvaBMWA1eEms8GAaDUwvWScb94VAKH8xNwli2pWyXw",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/D560BAQHtTRhUFrwfEw/company-logo_100_100/company-logo_100_100/0/1738994058346/harvard_x_logo?e=1778716800&v=beta&t=ribpBmXFecaRllCe9If22rr1fEbLzLIWbtBOCh_3ZDY",
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQHtTRhUFrwfEw/company-logo_100_100/company-logo_100_100/0/1738994058346/harvard_x_logo?e=1793232000&v=beta&t=Q5ES-Kf7ELPFb4_fYBkqX9eFmkn46ZMKfW_-eN1D8Wo",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
       },
       {
-        "title": "Programming in Java (IIT Kharagpur)",
-        "issuedAt": "Issued Oct 2019 · Expired Dec 2024",
-        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/Programming+In+Java+(from+IIT+Kharagpur+by+NPTEL).pdf",
-        "issuedBy": "NPTEL",
-        "issuedByLink": "https://www.linkedin.com/company/13229455/",
+        "title": "Machine Learning for All",
+        "issuedBy": "University of London",
+        "issuedAt": "Aug 2020",
+        "link": "https://www.coursera.org/account/accomplishments/verify/2UUNB5JTMCXJ",
+        "credentialId": null,
+        "issuedByLink": "https://www.linkedin.com/company/166649/",
         "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_400_400/company-logo_400_400/0/1631333024279?e=1778716800&v=beta&t=mBPOFuuBCiJGPsQOo6ZK2jjNdnLiUKxdIqBnRpHm9FM",
+          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEOzeRRDtb0PA/company-logo_400_400/B4EZfvR0X.GwAk-/0/1752066115520/university_of_london_logo?e=1793232000&v=beta&t=q9CvpCNZFfkNjs3KsT7HEBOwB8I0YERCPYAdXM2QAAw",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_400_400/company-logo_400_400/0/1631333024279?e=1778716800&v=beta&t=mBPOFuuBCiJGPsQOo6ZK2jjNdnLiUKxdIqBnRpHm9FM",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEOzeRRDtb0PA/company-logo_400_400/B4EZfvR0X.GwAk-/0/1752066115520/university_of_london_logo?e=1793232000&v=beta&t=q9CvpCNZFfkNjs3KsT7HEBOwB8I0YERCPYAdXM2QAAw",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_200_200/company-logo_200_200/0/1631333024279?e=1778716800&v=beta&t=_AdlmJIPkYGosThnnn_XwiO-1HL8oIov8b2-Ds-l8F8",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEOzeRRDtb0PA/company-logo_200_200/B4EZfvR0X.GwAU-/0/1752066115520/university_of_london_logo?e=1793232000&v=beta&t=K8PaHh_Wjz3xE3QrN6V6e9SyLB7yKuSdDqKatg_SrC0",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_100_100/company-logo_100_100/0/1631333024279?e=1778716800&v=beta&t=d_yuMAnQyhXCssaxU6WkS6OgMcCU8hj_xH-NBaioUwU",
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEOzeRRDtb0PA/company-logo_100_100/B4EZfvR0X.GwAc-/0/1752066115520/university_of_london_logo?e=1793232000&v=beta&t=ICTMjLCEs6S0p9Kct_Q0kA06xDWC3N21iOODGy7WLtc",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
         }
       },
       {
         "title": "Programming, Data Structures and Algorithms using Python (IIT Madras)",
-        "issuedAt": "Issued Mar 2020",
-        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/Programming%2C+Data+Structures+And+Algorithms+Using+Python+(from+IIT+Madras+by+NPTEL).pdf",
         "issuedBy": "NPTEL",
+        "issuedAt": "Mar 2020",
+        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/Programming%2C+Data+Structures+And+Algorithms+Using+Python+(from+IIT+Madras+by+NPTEL).pdf",
+        "credentialId": null,
         "issuedByLink": "https://www.linkedin.com/company/13229455/",
         "issuedByLogo": {
-          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_400_400/company-logo_400_400/0/1631333024279?e=1778716800&v=beta&t=mBPOFuuBCiJGPsQOo6ZK2jjNdnLiUKxdIqBnRpHm9FM",
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_400_400/company-logo_400_400/0/1631333024279?e=1793232000&v=beta&t=o3jmGRLY4ZY-JmMYw0mdt0S1h9gr8PuMDHx7lhOCpFc",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_400_400/company-logo_400_400/0/1631333024279?e=1778716800&v=beta&t=mBPOFuuBCiJGPsQOo6ZK2jjNdnLiUKxdIqBnRpHm9FM",
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_400_400/company-logo_400_400/0/1631333024279?e=1793232000&v=beta&t=o3jmGRLY4ZY-JmMYw0mdt0S1h9gr8PuMDHx7lhOCpFc",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_200_200/company-logo_200_200/0/1631333024279?e=1778716800&v=beta&t=_AdlmJIPkYGosThnnn_XwiO-1HL8oIov8b2-Ds-l8F8",
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_200_200/company-logo_200_200/0/1631333024279?e=1793232000&v=beta&t=hKNyVmlMwPrMZOKuUBhJlR8PQwj9b5_t-RwqwA5IdSw",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_100_100/company-logo_100_100/0/1631333024279?e=1778716800&v=beta&t=d_yuMAnQyhXCssaxU6WkS6OgMcCU8hj_xH-NBaioUwU",
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_100_100/company-logo_100_100/0/1631333024279?e=1793232000&v=beta&t=w8UCX7I_BjqljIuonILImswWNXGXo_-nzG3w_k54Knw",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
+            }
+          ]
+        }
+      },
+      {
+        "title": "ASP .NET Core Advance",
+        "issuedBy": "Microsoft",
+        "issuedAt": "Jun 2019",
+        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/ASP.NET+Core+-+Advanced+(by+Microsoft+Virtual+Academy).pdf",
+        "credentialId": null,
+        "issuedByLink": "https://www.linkedin.com/company/1035/",
+        "issuedByLogo": {
+          "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1793232000&v=beta&t=-G3KTWbySWNRDLM-7_sSgY3V09nqPA0Iswoptltp6cs",
+          "sizes": [
+            {
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1793232000&v=beta&t=-G3KTWbySWNRDLM-7_sSgY3V09nqPA0Iswoptltp6cs",
+              "width": 400,
+              "height": 400
+            },
+            {
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1793232000&v=beta&t=7AqRVTAQJBS_Tt5-7tDv68eH9Cx-fAkv77RJo5W0BHo",
+              "width": 200,
+              "height": 200
+            },
+            {
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1793232000&v=beta&t=TYtcfgrDGRsf2Baj7hl2QZkMARiISbrJA4bmMTUH0-w",
+              "width": 100,
+              "height": 100
+            }
+          ]
+        }
+      },
+      {
+        "title": "Programming in Java (IIT Kharagpur)",
+        "issuedBy": "NPTEL",
+        "issuedAt": "Oct 2019 · Expired Dec 2024",
+        "link": "https://chaitanya-malani-certifications.s3.ap-south-1.amazonaws.com/Programming+In+Java+(from+IIT+Kharagpur+by+NPTEL).pdf",
+        "credentialId": null,
+        "issuedByLink": "https://www.linkedin.com/company/13229455/",
+        "issuedByLogo": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_400_400/company-logo_400_400/0/1631333024279?e=1793232000&v=beta&t=o3jmGRLY4ZY-JmMYw0mdt0S1h9gr8PuMDHx7lhOCpFc",
+          "sizes": [
+            {
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_400_400/company-logo_400_400/0/1631333024279?e=1793232000&v=beta&t=o3jmGRLY4ZY-JmMYw0mdt0S1h9gr8PuMDHx7lhOCpFc",
+              "width": 400,
+              "height": 400
+            },
+            {
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_200_200/company-logo_200_200/0/1631333024279?e=1793232000&v=beta&t=hKNyVmlMwPrMZOKuUBhJlR8PQwj9b5_t-RwqwA5IdSw",
+              "width": 200,
+              "height": 200
+            },
+            {
+              "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_100_100/company-logo_100_100/0/1631333024279?e=1793232000&v=beta&t=w8UCX7I_BjqljIuonILImswWNXGXo_-nzG3w_k54Knw",
+              "width": 100,
+              "height": 100
             }
           ]
         }
@@ -1034,69 +881,72 @@
         "title": "Neural Style Transfer",
         "duration": "May 2025 - Jun 2025",
         "startDate": {
+          "text": "May 2025",
           "month": "May",
-          "year": 2025,
-          "text": "May 2025"
+          "year": 2025
         },
         "endDate": {
+          "text": "Jun 2025",
           "month": "Jun",
-          "year": 2025,
-          "text": "Jun 2025"
+          "year": 2025
         },
+        "description": "This project is a complete implementation of Neural Style Transfer (NST) using a pretrained transformer network, enabling both image and video stylization using a fast, real-time feedforward model.",
+        "link": null,
         "associatedWith": null,
-        "associatedWithLink": null,
-        "description": "This project is a complete implementation of Neural Style Transfer (NST) using a pretrained transformer network, enabling both image and video stylization using a fast, real-time feedforward model."
+        "associatedWithLink": null
       },
       {
         "title": "Face Recognition Attendance System",
         "duration": "Nov 2024 - Jan 2025",
         "startDate": {
+          "text": "Nov 2024",
           "month": "Nov",
-          "year": 2024,
-          "text": "Nov 2024"
+          "year": 2024
         },
         "endDate": {
+          "text": "Jan 2025",
           "month": "Jan",
-          "year": 2025,
-          "text": "Jan 2025"
+          "year": 2025
         },
-        "associatedWith": "Associated with EPITA: Ecole d'Ingénieurs en Informatique",
-        "associatedWithLink": "https://www.linkedin.com/company/15106487/",
         "description": "A real-time face recognition-based attendance system using Python, Streamlit, Redis, and InsightFace. This system detects faces, matches them with stored embeddings, and logs attendance in Redis.",
+        "link": null,
+        "associatedWith": "EPITA: Ecole d'Ingénieurs en Informatique",
+        "associatedWithLink": "https://www.linkedin.com/company/15106487/",
         "contributors": [
           {
-            "linkedinUrl": "https://www.linkedin.com/in/ACoAAD5jrwUBlgv53EY_iZ_BSFdf6TSBnB1pNkQ"
+            "linkedinUrl": "https://www.linkedin.com/in/sreymouy-sao"
           },
           {
-            "linkedinUrl": "https://www.linkedin.com/in/ACoAAClYkYYBvMCSZoZtwz4874Qkd65Y6U4OiwQ"
+            "linkedinUrl": "https://www.linkedin.com/in/joe-souaid-686385174"
           }
         ]
       },
       {
         "title": "Twitter Clone",
-        "duration": "Dec 2024 - Dec 2024",
+        "duration": "Dec 2024",
         "startDate": {
+          "text": "Dec 2024",
           "month": "Dec",
-          "year": 2024,
-          "text": "Dec 2024"
+          "year": 2024
         },
         "endDate": {
+          "text": "Dec 2024",
           "month": "Dec",
-          "year": 2024,
-          "text": "Dec 2024"
+          "year": 2024
         },
-        "associatedWith": "Associated with EPITA: Ecole d'Ingénieurs en Informatique",
-        "associatedWithLink": "https://www.linkedin.com/company/15106487/",
         "description": "This project is a full-stack Twitter clone application with a React frontend and Node.js backend.",
+        "link": null,
+        "associatedWith": "EPITA: Ecole d'Ingénieurs en Informatique",
+        "associatedWithLink": "https://www.linkedin.com/company/15106487/",
         "contributors": [
           {
-            "linkedinUrl": "https://www.linkedin.com/in/ACoAAD5jrwUBlgv53EY_iZ_BSFdf6TSBnB1pNkQ"
+            "linkedinUrl": "https://www.linkedin.com/in/sreymouy-sao"
           },
           {
-            "linkedinUrl": "https://www.linkedin.com/in/ACoAABve95QBcRbKnqQv64pi3f0W7PpVg0sSEQ0"
+            "linkedinUrl": "https://www.linkedin.com/in/ruchidhami"
           },
           {
-            "linkedinUrl": "https://www.linkedin.com/in/ACoAAClYkYYBvMCSZoZtwz4874Qkd65Y6U4OiwQ"
+            "linkedinUrl": "https://www.linkedin.com/in/joe-souaid-686385174"
           }
         ]
       },
@@ -1104,132 +954,179 @@
         "title": "Chatting Web Application",
         "duration": "Dec 2020 - Feb 2021",
         "startDate": {
+          "text": "Dec 2020",
           "month": "Dec",
-          "year": 2020,
-          "text": "Dec 2020"
+          "year": 2020
         },
         "endDate": {
+          "text": "Feb 2021",
           "month": "Feb",
-          "year": 2021,
-          "text": "Feb 2021"
+          "year": 2021
         },
-        "associatedWith": null,
-        "associatedWithLink": null,
         "description": "This is a chatting web application which is based on Django Channels and Web Sockets.",
-        "link": "https://youtu.be/c2NIjIZjGVQ"
+        "link": "https://youtu.be/c2NIjIZjGVQ",
+        "associatedWith": null,
+        "associatedWithLink": null
       },
       {
         "title": "Mailing System",
         "duration": "Sep 2020 - Oct 2020",
         "startDate": {
+          "text": "Sep 2020",
           "month": "Sep",
-          "year": 2020,
-          "text": "Sep 2020"
+          "year": 2020
         },
         "endDate": {
+          "text": "Oct 2020",
           "month": "Oct",
-          "year": 2020,
-          "text": "Oct 2020"
+          "year": 2020
         },
-        "associatedWith": null,
-        "associatedWithLink": null,
         "description": "This is a web-based mailing application that sends and receives emails using API requests. \nIt has been developed using Python, Django, HTML, CSS and JavaScript.",
-        "link": "https://youtu.be/Owic7M9elBU"
+        "link": "https://youtu.be/Owic7M9elBU",
+        "associatedWith": null,
+        "associatedWithLink": null
       },
       {
         "title": "E-Commerce Auction Management",
-        "duration": "Sep 2020 - Sep 2020",
+        "duration": "Sep 2020",
         "startDate": {
+          "text": "Sep 2020",
           "month": "Sep",
-          "year": 2020,
-          "text": "Sep 2020"
+          "year": 2020
         },
         "endDate": {
+          "text": "Sep 2020",
           "month": "Sep",
-          "year": 2020,
-          "text": "Sep 2020"
+          "year": 2020
         },
-        "associatedWith": null,
-        "associatedWithLink": null,
         "description": "This is a web application that allows users to post auction listings and bid on them. \nIt has been developed using Python, Django, HTML, CSS and JavaScript.",
-        "link": "https://youtu.be/RZUgXt75px0"
+        "link": "https://youtu.be/RZUgXt75px0",
+        "associatedWith": null,
+        "associatedWithLink": null
       },
       {
         "title": "Face Mask Detection",
-        "duration": "Jun 2020 - Jun 2020",
+        "duration": "Jun 2020",
         "startDate": {
+          "text": "Jun 2020",
           "month": "Jun",
-          "year": 2020,
-          "text": "Jun 2020"
+          "year": 2020
         },
         "endDate": {
+          "text": "Jun 2020",
           "month": "Jun",
-          "year": 2020,
-          "text": "Jun 2020"
+          "year": 2020
         },
+        "description": "This is a python application that uses machine learning models for detecting if a person is wearing a mask or not.",
+        "link": null,
         "associatedWith": null,
-        "associatedWithLink": null,
-        "description": "This is a python application that uses machine learning models for detecting if a person is wearing a mask or not."
+        "associatedWithLink": null
       },
       {
         "title": "Book Review System",
-        "duration": "Apr 2020 - Apr 2020",
+        "duration": "Apr 2020",
         "startDate": {
+          "text": "Apr 2020",
           "month": "Apr",
-          "year": 2020,
-          "text": "Apr 2020"
+          "year": 2020
         },
         "endDate": {
+          "text": "Apr 2020",
           "month": "Apr",
-          "year": 2020,
-          "text": "Apr 2020"
+          "year": 2020
         },
-        "associatedWith": null,
-        "associatedWithLink": null,
         "description": "This web application allows users to search books based on a book name or author. It displays book details such as cover page, ratings and reviews. \nIt has been developed using Flask. It fetches the book details from Goodreads portal using API's.",
-        "link": "https://youtu.be/9oijgzFddKs"
+        "link": "https://youtu.be/9oijgzFddKs",
+        "associatedWith": null,
+        "associatedWithLink": null
       }
     ],
     "volunteering": [],
     "receivedRecommendations": [
       {
         "givenBy": "Chams-Eddine Jied",
-        "givenByHeadline": "Solution Owner ",
-        "givenAt": "April 10, 2026, Chams-Eddine managed Chaitanya directly",
+        "givenAt": "April 10, 2026",
         "givenByLink": "https://www.linkedin.com/in/chams-eddine-jied-aa7307152",
-        "description": "I highly recommend Chaitanya Malani for roles related to software engineering.\n\nDuring his assignment, Chaitanya made a strong contribution to the APEX Calculation Engine by developing robust automated tests using PySpark on Databricks, significantly improving the reliability and stability of critical calculations. He also designed and implemented backend API tests in Java, enhancing overall test coverage and helping detect regressions early.\nChaitanya additionally worked on enhancing a Jenkins pipeline to enable the automatic triggering of tests and explored Docker integration to improve portability and execution consistency of test environments, demonstrating a strong DevOps-oriented mindset.\nBeyond his solid technical skills, Chaitanya stood out for his autonomy, proactivity, and positive attitude. He was very pleasant to work with and consistently showed initiative, often exceeding expectations in both execution and collaboration.\nChaitanya proved to be a reliable, motivated, and quality-driven professional. I am confident he would be a strong asset to any technical team.",
+        "givenByHeadline": "Product Delivery Lead",
         "givenByPicture": {
-          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFu0uZfFN0e9w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1542739467641?e=1778716800&v=beta&t=1GVbdbpj0jEOLMgr6IIrWZjK19TNU3uMro2bnGaPrAk",
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFu0uZfFN0e9w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1542739467641?e=1793232000&v=beta&t=VhouPMlBc1OCnPExkAcsAa14VqIK_6l6qKmp4YAAjcA",
           "sizes": [
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D03AQFu0uZfFN0e9w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1542739467641?e=1778716800&v=beta&t=1GVbdbpj0jEOLMgr6IIrWZjK19TNU3uMro2bnGaPrAk",
+              "url": "https://media.licdn.com/dms/image/v2/C4D03AQFu0uZfFN0e9w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1542739467641?e=1793232000&v=beta&t=VhouPMlBc1OCnPExkAcsAa14VqIK_6l6qKmp4YAAjcA",
               "width": 586,
-              "height": 586,
-              "expiresAt": 1778716800000
+              "height": 586
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D03AQFu0uZfFN0e9w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1542739467869?e=1778716800&v=beta&t=c5mubSSpLRAu70Kpj0A6tiirGbsI_EH7dNsZGWk4w58",
+              "url": "https://media.licdn.com/dms/image/v2/C4D03AQFu0uZfFN0e9w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1542739467869?e=1793232000&v=beta&t=c8CgdXuC_QB-UvEb0aDL0Iw0CESqYtSKIWWRCFy8V6g",
               "width": 400,
-              "height": 400,
-              "expiresAt": 1778716800000
+              "height": 400
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D03AQFu0uZfFN0e9w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1542739467431?e=1778716800&v=beta&t=hxwhPVIfo327_lUdkAHriUjoww-6KhSE0q7TkdGeDRg",
+              "url": "https://media.licdn.com/dms/image/v2/C4D03AQFu0uZfFN0e9w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1542739467431?e=1793232000&v=beta&t=oyJmVJArqPPF7JeUeoFjgx-4Aa-9E4lyPiZa44yqYwY",
               "width": 200,
-              "height": 200,
-              "expiresAt": 1778716800000
+              "height": 200
             },
             {
-              "url": "https://media.licdn.com/dms/image/v2/C4D03AQFu0uZfFN0e9w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1542739467426?e=1778716800&v=beta&t=kaKcnGD9mdh5cHx7AztnnpLp1cs7w7ZcFzB2rXgM9hQ",
+              "url": "https://media.licdn.com/dms/image/v2/C4D03AQFu0uZfFN0e9w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1542739467426?e=1793232000&v=beta&t=vNNjCdAm2UvQlAcwYd1NJ7QCSPL238DovyVDphwhkOI",
               "width": 100,
-              "height": 100,
-              "expiresAt": 1778716800000
+              "height": 100
             }
           ]
-        }
+        },
+        "description": "I highly recommend Chaitanya Malani for roles related to software engineering.\n\nDuring his assignment, Chaitanya made a strong contribution to the APEX Calculation Engine by developing robust automated tests using PySpark on Databricks, significantly improving the reliability and stability of critical calculations. He also designed and implemented backend API tests in Java, enhancing overall test coverage and helping detect regressions early.\nChaitanya additionally worked on enhancing a Jenkins pipeline to enable the automatic triggering of tests and explored Docker integration to improve portability and execution consistency of test environments, demonstrating a strong DevOps-oriented mindset.\nBeyond his solid technical skills, Chaitanya stood out for his autonomy, proactivity, and positive attitude. He was very pleasant to work with and consistently showed initiative, often exceeding expectations in both execution and collaboration.\nChaitanya proved to be a reliable, motivated, and quality-driven professional. I am confident he would be a strong asset to any technical team."
       }
     ],
     "skills": [
+      {
+        "name": "Data Pipelines"
+      },
+      {
+        "name": "AI Software Development"
+      },
+      {
+        "name": "LangGraph",
+        "positions": [
+          "AI Engineer at FirstDown"
+        ]
+      },
+      {
+        "name": "LangChain",
+        "positions": [
+          "AI Engineer at FirstDown"
+        ]
+      },
+      {
+        "name": "Data Science",
+        "positions": [
+          "Snowflake Generative AI Professional Certificate"
+        ]
+      },
+      {
+        "name": "Agentic AI Development",
+        "positions": [
+          "Snowflake Generative AI Professional Certificate"
+        ]
+      },
+      {
+        "name": "AI Agents",
+        "positions": [
+          "Snowflake Generative AI Professional Certificate"
+        ]
+      },
+      {
+        "name": "Snowflake",
+        "positions": [
+          "Snowflake Generative AI Professional Certificate",
+          "Snowflake Data Engineering Professional Certificate"
+        ]
+      },
+      {
+        "name": "Retrieval-Augmented Generation (RAG)",
+        "positions": [
+          "AI Engineer at FirstDown",
+          "Snowflake Generative AI Professional Certificate"
+        ]
+      },
       {
         "name": "Snowflake Cloud",
         "positions": [
@@ -1237,7 +1134,19 @@
         ]
       },
       {
+        "name": "MLOps",
+        "positions": [
+          "AI in Production"
+        ]
+      },
+      {
         "name": "Jenkins",
+        "positions": [
+          "Automation Engineer at SCOR"
+        ]
+      },
+      {
+        "name": "Playwriting",
         "positions": [
           "Automation Engineer at SCOR"
         ]
@@ -1255,7 +1164,91 @@
         ]
       },
       {
-        "name": "Prisma ORM"
+        "name": "Kubernetes",
+        "positions": [
+          "Automation Engineer at SCOR"
+        ]
+      },
+      {
+        "name": "Prisma ORM",
+        "positions": [
+          "Twitter Clone"
+        ]
+      },
+      {
+        "name": "Socket.io",
+        "positions": [
+          "Twitter Clone"
+        ]
+      },
+      {
+        "name": "React Hooks",
+        "positions": [
+          "Twitter Clone"
+        ]
+      },
+      {
+        "name": "Neural Networks",
+        "positions": [
+          "Neural Style Transfer"
+        ]
+      },
+      {
+        "name": "Artificial Intelligence (AI)",
+        "positions": [
+          "AI Engineer at FirstDown",
+          "Snowflake Generative AI Professional Certificate",
+          "Neural Style Transfer"
+        ]
+      },
+      {
+        "name": "Convolutional Neural Networks (CNN)",
+        "positions": [
+          "Neural Style Transfer"
+        ]
+      },
+      {
+        "name": "Transformer Models",
+        "positions": [
+          "Neural Style Transfer"
+        ]
+      },
+      {
+        "name": "Streamlit",
+        "positions": [
+          "Face Recognition Attendance System"
+        ]
+      },
+      {
+        "name": "Redis",
+        "positions": [
+          "Face Recognition Attendance System"
+        ]
+      },
+      {
+        "name": "ML",
+        "positions": [
+          "Face Recognition Attendance System",
+          "Neural Style Transfer"
+        ]
+      },
+      {
+        "name": "Automation Engineering"
+      },
+      {
+        "name": "Test Automation"
+      },
+      {
+        "name": "Amazon Bedrock",
+        "positions": [
+          "AWS Bedrock - The Complete Guide to AWS Generative AI"
+        ]
+      },
+      {
+        "name": "Generative AI",
+        "positions": [
+          "AWS Bedrock - The Complete Guide to AWS Generative AI"
+        ]
       },
       {
         "name": "JSON",
@@ -1266,6 +1259,12 @@
       },
       {
         "name": "Android",
+        "positions": [
+          "2 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 1 other school"
+        ]
+      },
+      {
+        "name": "Object-Oriented Programming (OOP)",
         "positions": [
           "2 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 1 other school"
         ]
@@ -1288,6 +1287,47 @@
         "name": "MongoDB",
         "positions": [
           "EPITA: Ecole d'Ingénieurs en Informatique"
+        ]
+      },
+      {
+        "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+        "positions": [
+          "Software Engineer at Zeus Learning",
+          "EPITA: Ecole d'Ingénieurs en Informatique"
+        ]
+      },
+      {
+        "name": "Natural Language Processing (NLP)",
+        "positions": [
+          "University of Mumbai"
+        ]
+      },
+      {
+        "name": "AWS Identity and Access Management (AWS IAM)",
+        "positions": [
+          "Consultant at Foslipy C.S Pvt Ltd"
+        ]
+      },
+      {
+        "name": "Critical Thinking",
+        "positions": [
+          "Software Engineer at Zeus Learning",
+          "2 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 1 other school"
+        ]
+      },
+      {
+        "name": "Problem Solving",
+        "positions": [
+          "Software Engineer at Zeus Learning",
+          "2 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 1 other school",
+          "Programming, Data Structures and Algorithms using Python (IIT Madras)"
+        ]
+      },
+      {
+        "name": "Communication",
+        "positions": [
+          "Software Engineer at Zeus Learning",
+          "4 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 3 other schools"
         ]
       },
       {
@@ -1317,14 +1357,16 @@
         "name": "Node.js",
         "positions": [
           "2 experiences across SCOR and 1 other company",
-          "EPITA: Ecole d'Ingénieurs en Informatique"
+          "EPITA: Ecole d'Ingénieurs en Informatique",
+          "Twitter Clone"
         ]
       },
       {
         "name": "React.js",
         "positions": [
           "Software Engineer at Zeus Learning",
-          "EPITA: Ecole d'Ingénieurs en Informatique"
+          "EPITA: Ecole d'Ingénieurs en Informatique",
+          "Twitter Clone"
         ]
       },
       {
@@ -1338,7 +1380,9 @@
       {
         "name": "Django",
         "positions": [
-          "Web Programming with Python and JavaScript"
+          "Web Programming with Python and JavaScript",
+          "E-Commerce Auction Management",
+          "Mailing System"
         ]
       },
       {
@@ -1346,170 +1390,6 @@
         "positions": [
           "Software Engineer at Zeus Learning",
           "2 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 1 other school"
-        ]
-      },
-      {
-        "name": "SQL",
-        "positions": [
-          "Software Engineer at Zeus Learning",
-          "2 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 1 other school"
-        ]
-      },
-      {
-        "name": "HTML5",
-        "positions": [
-          "4 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 3 other schools",
-          "Web Programming with Python and JavaScript"
-        ]
-      },
-      {
-        "name": "Data Science",
-        "positions": [
-          "Snowflake Generative AI Professional Certificate"
-        ]
-      },
-      {
-        "name": "Snowflake",
-        "positions": [
-          "Snowflake Generative AI Professional Certificate"
-        ]
-      },
-      {
-        "name": "MLOps",
-        "positions": [
-          "AI in Production"
-        ]
-      },
-      {
-        "name": "Playwriting",
-        "positions": [
-          "Automation Engineer at SCOR"
-        ]
-      },
-      {
-        "name": "Kubernetes",
-        "positions": [
-          "Automation Engineer at SCOR"
-        ]
-      },
-      {
-        "name": "Socket.io"
-      },
-      {
-        "name": "React Hooks"
-      },
-      {
-        "name": "Neural Networks"
-      },
-      {
-        "name": "Artificial Intelligence (AI)",
-        "positions": [
-          "Snowflake Generative AI Professional Certificate"
-        ]
-      },
-      {
-        "name": "Convolutional Neural Networks (CNN)"
-      },
-      {
-        "name": "Streamlit"
-      },
-      {
-        "name": "Redis"
-      },
-      {
-        "name": "ML"
-      },
-      {
-        "name": "Automation Engineering"
-      },
-      {
-        "name": "Test Automation"
-      },
-      {
-        "name": "Object-Oriented Programming (OOP)",
-        "positions": [
-          "2 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 1 other school"
-        ]
-      },
-      {
-        "name": "Continuous Integration and Continuous Delivery (CI/CD)",
-        "positions": [
-          "Software Engineer at Zeus Learning",
-          "EPITA: Ecole d'Ingénieurs en Informatique"
-        ]
-      },
-      {
-        "name": "Natural Language Processing (NLP)",
-        "positions": [
-          "University of Mumbai"
-        ]
-      },
-      {
-        "name": "AWS Identity and Access Management (AWS IAM)",
-        "positions": [
-          "Consultant at Foslipy C.S Pvt Ltd"
-        ]
-      },
-      {
-        "name": "Web Services API",
-        "positions": [
-          "Software Engineer at Zeus Learning",
-          "2 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 1 other school"
-        ]
-      },
-      {
-        "name": "Critical Thinking",
-        "positions": [
-          "Software Engineer at Zeus Learning",
-          "2 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 1 other school"
-        ]
-      },
-      {
-        "name": "Problem Solving",
-        "positions": [
-          "Software Engineer at Zeus Learning",
-          "2 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 1 other school",
-          "Programming, Data Structures and Algorithms using Python (IIT Madras)"
-        ]
-      },
-      {
-        "name": "Communication",
-        "positions": [
-          "Software Engineer at Zeus Learning",
-          "4 educational experiences at EPITA: Ecole d'Ingénieurs en Informatique and 3 other schools"
-        ]
-      },
-      {
-        "name": "Agentic AI Development",
-        "positions": [
-          "Snowflake Generative AI Professional Certificate"
-        ]
-      },
-      {
-        "name": "AI Agents",
-        "positions": [
-          "Snowflake Generative AI Professional Certificate"
-        ]
-      },
-      {
-        "name": "Retrieval-Augmented Generation (RAG)",
-        "positions": [
-          "Snowflake Generative AI Professional Certificate"
-        ]
-      },
-      {
-        "name": "Transformer Models"
-      },
-      {
-        "name": "Amazon Bedrock",
-        "positions": [
-          "AWS Bedrock - The Complete Guide to AWS Generative AI"
-        ]
-      },
-      {
-        "name": "Generative AI",
-        "positions": [
-          "AWS Bedrock - The Complete Guide to AWS Generative AI"
         ]
       }
     ],
@@ -1527,11 +1407,13 @@
         "proficiency": "Limited working proficiency"
       }
     ],
+    "organizations": [],
     "causes": [],
     "featured": {
       "images": [],
-      "link": "https://www.linkedin.com/in/chaitanya-malani/overlay/1771811438326/single-media-viewer?type=DOCUMENT&profileId=ACoAADKWlMcBJpSkQOYbUPftctALn_lBi5HmZbM",
-      "title": "Chaitanya Malani CV",
+      "link": null,
+      "title": null,
+      "subtitle": null,
       "slides": [
         {
           "title": "Chaitanya Malani CV",
@@ -1548,7 +1430,7 @@
           "description": null,
           "url": "https://github.com/cmn22",
           "image": {
-            "url": "https://media.licdn.com/dms/image/v2/D4D2DAQH2EZDJTRYGsA/profile-treasury-image-shrink_8192_8192/profile-treasury-image-shrink_8192_8192/0/1736780933441?e=1777975200&v=beta&t=zI1PMvRWenJ6gFOqXr-j3AVw4cN4BBxTAOWrDH9iTW8"
+            "url": "https://media.licdn.com/dms/image/v2/D4D2DAQH2EZDJTRYGsA/profile-treasury-image-shrink_8192_8192/profile-treasury-image-shrink_8192_8192/0/1736780933441?e=1791997200&v=beta&t=HTUsRgOrxi6AmiAsXJVNmX9f3pLDS-ejVEHKj-5rfAY"
           }
         },
         {
@@ -1557,174 +1439,286 @@
           "description": null,
           "url": "https://chaitanyamalani.com",
           "image": {
-            "url": "https://media.licdn.com/dms/image/v2/D4D2DAQGhCZ99CzAq2A/profile-treasury-image-shrink_8192_8192/profile-treasury-image-shrink_8192_8192/0/1736780792981?e=1777975200&v=beta&t=NOqCx4CZHo5sjQwo8j6O0CU9I57Lrk6jxLVKBKAAQ1o"
+            "url": "https://media.licdn.com/dms/image/v2/D4D2DAQGhCZ99CzAq2A/profile-treasury-image-shrink_8192_8192/profile-treasury-image-shrink_8192_8192/0/1736780792981?e=1791997200&v=beta&t=w92UdjsrnvY0qQ4dqanIWEhErFJTLsWXr9whWMn0J7I"
           }
         }
       ]
     },
     "composeOptionType": "PREMIUM_INMAIL",
-    "organizations": [],
     "moreProfiles": [
       {
-        "id": "ACoAADrfVfoB9t46SdY7SKdx-zN5oKOpra5_fm0",
-        "firstName": "Yeowon",
-        "lastName": "Kim",
-        "position": "Software Engineer | MSc CS @ EPITA",
-        "publicIdentifier": "yeowon-kim-44a94a236",
-        "linkedinUrl": "https://www.linkedin.com/in/yeowon-kim-44a94a236"
+        "id": "ACoAADt-fP4BO3zKth1Mfi27pffJKgvJnfm8YCI",
+        "firstName": "Yu Lin",
+        "lastName": "SHAO",
+        "position": "Front-End Developer | 42 Paris Student |\nFormer Front-End Developer Intern @ SCOR",
+        "publicIdentifier": "yu-lin-shao-45233a23a",
+        "linkedinUrl": "https://www.linkedin.com/in/yu-lin-shao-45233a23a"
       },
       {
-        "id": "ACoAACq1msMBibWBfvbkIw-bUFwuX4dj4X18pbY",
-        "firstName": "Legue",
-        "lastName": "Doho Thierry ",
-        "position": "AI & Data Science Intern @ Dassault Systèmes (ENOVIA R&D) | Msc. in Data Science and Analytics | Mathematician | Software engineer",
-        "publicIdentifier": "legue-doho",
-        "linkedinUrl": "https://www.linkedin.com/in/legue-doho"
+        "id": "ACoAACoEbogBl2FNAclfLRV-TNvUMZqgJZcQUgw",
+        "firstName": "Santanu Kumar",
+        "lastName": "Pal",
+        "position": "Business & Data Science Graduate - EDHEC",
+        "publicIdentifier": "santanu-kumar-pal-7740b7178",
+        "linkedinUrl": "https://www.linkedin.com/in/santanu-kumar-pal-7740b7178"
       },
       {
-        "id": "ACoAADe5ENQBkCbtrDo2I0D80TUZFsf4myUJvN0",
-        "firstName": "Vaishnavi",
-        "lastName": "Rajasekaran",
-        "position": "AI Engineer | Specialized in LLMs, RAG Pipelines & Agentic Workflows (n8n, Crawl4AI) | 4+ Years Experience | Full-Stack AI Development (Python, FastAPI, React)",
-        "publicIdentifier": "vaishnavi-rajasekaran-9b0107221",
-        "linkedinUrl": "https://www.linkedin.com/in/vaishnavi-rajasekaran-9b0107221"
+        "id": "ACoAADaOi04BFBAFVHVbcVh5CrezRbt4VsuKG5Q",
+        "firstName": "Anuja",
+        "lastName": "Gour",
+        "position": "Marketing And Communication at SCOR",
+        "publicIdentifier": "anuja-gour-152652216",
+        "linkedinUrl": "https://www.linkedin.com/in/anuja-gour-152652216"
       },
       {
-        "id": "ACoAAEx9YMsBNurfLz1bigmgkRt5nnx0j7al6v8",
-        "firstName": "Deepak",
-        "lastName": "Miryala",
-        "position": "Data Engineer | MSc Data Science & Analytics - EPITA Paris | Ex-Toyota Motor Europe",
-        "publicIdentifier": "deepak-miryala-a8b9292b9",
-        "linkedinUrl": "https://www.linkedin.com/in/deepak-miryala-a8b9292b9"
+        "id": "ACoAACKMJPIBJYWWny2OljVeOLwSLC3ynq9GWt0",
+        "firstName": "Puja",
+        "lastName": "Sinha",
+        "position": "Lead Business Analyst at Interakson leading P2P digital transformation for clients | Ex-Business Analyst at SCOR SE (Paris) | Ex-Senior Analyst for Capgemini (Mumbai)",
+        "publicIdentifier": "puja-sinha-44213a142",
+        "linkedinUrl": "https://www.linkedin.com/in/puja-sinha-44213a142"
       },
       {
-        "id": "ACoAADKe8EkBVWYWZD3axeeyNjCNF4379upO9OI",
-        "firstName": "Prathmesh",
-        "lastName": "Jain",
-        "position": "Full-Stack AI Developer | LLM Integrations • Agentic AI • FastAPI | Building AI Automation Systems",
-        "publicIdentifier": "prathmeshjain22",
-        "linkedinUrl": "https://www.linkedin.com/in/prathmeshjain22"
+        "id": "ACoAACxDVxEBmv26_qp7wh7Fm1w3Sfzu6On4xqQ",
+        "firstName": "Hrishikesh",
+        "lastName": "Reddy",
+        "position": "Global Engagement Manager at HCLTech | Ex SCOR | Ex LTM | MDI GURGAON | ESCP Paris |",
+        "publicIdentifier": "hrishikeshreddy1999",
+        "linkedinUrl": "https://www.linkedin.com/in/hrishikeshreddy1999"
       },
       {
-        "id": "ACoAABNNtf4BndfS5H4l-090-DoW1Ut5NTxa58E",
-        "firstName": "Jérémie",
-        "lastName": "Rodon",
-        "position": "AWS Architect 8x certified | AWS Hero | AWS Instructor | Rust Developer",
-        "publicIdentifier": "jeremierodon",
-        "linkedinUrl": "https://www.linkedin.com/in/jeremierodon"
+        "id": "ACoAAChbJcUB4orMrvF0-GypG-XaLKUqFlPmSuM",
+        "firstName": "Pulkit",
+        "lastName": "Vishnoi",
+        "position": "Marketing Communications Specialist | EDHEC Masters Marketing",
+        "publicIdentifier": "pulkitv7",
+        "linkedinUrl": "https://www.linkedin.com/in/pulkitv7"
       },
       {
-        "id": "ACoAAC-qJSwBr1ujFZLu6CrHjxVpvpplaL4w0dc",
-        "firstName": "Abhay",
-        "lastName": "Anavkar",
-        "position": "Senior Software Engineer @ Accolite | Ex-Media.net",
-        "publicIdentifier": "abhay-anavkar",
-        "linkedinUrl": "https://www.linkedin.com/in/abhay-anavkar"
+        "id": "ACoAADgY6tQBGh0VWrZShTeIrDkWCVmsz_8pF-o",
+        "firstName": "Jade",
+        "lastName": "Berthelot",
+        "position": "Sorbonne | ESCP",
+        "publicIdentifier": "jade-berthelot-104237223",
+        "linkedinUrl": "https://www.linkedin.com/in/jade-berthelot-104237223"
       },
       {
-        "id": "ACoAACZyYFYBk_BUzXCtzlpzA2Ug-K1ixd-cXzI",
-        "firstName": "Elie",
-        "lastName": "Yaacoub",
-        "position": "Consulting Engineer @ MongoDB & Delbridge | AI & Software Engineer",
-        "publicIdentifier": "eliie-yaacoub",
-        "linkedinUrl": "https://www.linkedin.com/in/eliie-yaacoub"
+        "id": "ACoAADb1jr4BDBs4MmSaSq3vhsSpf9UlUSxUmNQ",
+        "firstName": "Kalika",
+        "lastName": "Nigam",
+        "position": "Fashion Designer at Siyaram Silk Mills Ltd.",
+        "publicIdentifier": "kalika-nigam-2208",
+        "linkedinUrl": "https://www.linkedin.com/in/kalika-nigam-2208"
       },
       {
-        "id": "ACoAAC4EVcUBipMdHBsJ5m97vK4P3eYwC6RPgys",
-        "firstName": "Pravin",
-        "lastName": "Uttare",
-        "publicIdentifier": "pravin-uttare-145678196",
-        "linkedinUrl": "https://www.linkedin.com/in/pravin-uttare-145678196"
+        "id": "ACoAAFj9Aw8BATVhIod_O2PVDhCG3tLxHZxge-g",
+        "firstName": "Quentin",
+        "lastName": "Lenfle",
+        "position": "Secrétaire général du CFC",
+        "publicIdentifier": "quentin-lenfle-r",
+        "linkedinUrl": "https://www.linkedin.com/in/quentin-lenfle-r"
       },
       {
-        "id": "ACoAACWvyLYBzWIPn-V9onJ8hRM7Zf4UBepRW0o",
-        "firstName": "Mervine",
-        "lastName": "Joshy",
-        "position": "Software Engineer (4+ yrs) | Node.js, NestJS, TypeScript | Backend & Full-Stack | EPITA Paris | PostgreSQL, React, Next.js",
-        "publicIdentifier": "mervine-joshy-1868b9157",
-        "linkedinUrl": "https://www.linkedin.com/in/mervine-joshy-1868b9157"
+        "id": "ACoAABpesQ0Bi8wlg5bk35zVmbfwTzZJqugAglY",
+        "firstName": "Dr. Shweta",
+        "lastName": "Parekh",
+        "position": "Graduated from K E M Hospital, Seth Gordhandas Sunderdas Medical College",
+        "publicIdentifier": "dr-shweta-parekh-2911b6104",
+        "linkedinUrl": "https://www.linkedin.com/in/dr-shweta-parekh-2911b6104"
       },
       {
-        "id": "ACoAAB3M1w0Bb1m13_Ag2PwmRjaG5Rc_IN_YmA0",
-        "firstName": "Kolade",
-        "lastName": "Komolafe",
-        "position": "IT Infrastructure Engineer | Security Engineer | DevOps Engineer | Energy Enthusiast",
-        "publicIdentifier": "kolade-komolafe",
-        "linkedinUrl": "https://www.linkedin.com/in/kolade-komolafe"
+        "id": "ACoAABik6BAB__GOpU6_HHgbHo4evSWe9Oto4B4",
+        "firstName": "Alberto",
+        "lastName": "Gerardo Scheinig",
+        "position": "Director General y Representante Legal del Grupo Educativo JHO | Gestión de personas, Trabajo en equipo",
+        "publicIdentifier": "alberto-gerardo-scheinig-154573b6",
+        "linkedinUrl": "https://www.linkedin.com/in/alberto-gerardo-scheinig-154573b6"
       },
       {
-        "id": "ACoAAC8ktkYB55EYjgf6FwCN6vyNEbGjr8MnRJs",
-        "firstName": "Mouna Priya",
-        "lastName": "POKURU",
-        "position": "Aspiring Data Engineer | Data Engineer at Sienna Investment Managers | Ex-Infosys | Snowflake | SQL | Power BI |  KPI Analytics | AWS | ETL/ELT Pipelines",
-        "publicIdentifier": "mouna-priya-pokuru",
-        "linkedinUrl": "https://www.linkedin.com/in/mouna-priya-pokuru"
+        "id": "ACoAAGc8hJ4B4S8Zrpj3px-_EdWz9VK6S0Bnez0",
+        "firstName": "Juan",
+        "lastName": "Manuel Masetto Cabarrou",
+        "position": "Agente inmobiliario en REMAX \nCorredor Publico Inmobiliario responsable Cristian Medina CUCICBA7762/CMCPSI6700",
+        "publicIdentifier": "juan-manuel-masetto-cabarrou-026072404",
+        "linkedinUrl": "https://www.linkedin.com/in/juan-manuel-masetto-cabarrou-026072404"
       },
       {
-        "id": "ACoAACIZqkABSncE55zb5xG405s1Alo9PFTwq5A",
-        "firstName": "Anuj",
-        "lastName": "Mishra",
-        "publicIdentifier": "anuj-mishra-76872013b",
-        "linkedinUrl": "https://www.linkedin.com/in/anuj-mishra-76872013b"
+        "id": "ACoAAAM18nYBWbhjjqVGm8rJrv1N3_NtQbMgRmY",
+        "firstName": "Néstor",
+        "lastName": "Fabián MIGUELIZ",
+        "position": "Asesor Legislativo (AH) Prosecretaría Parlamentaria - H. SENADO DE LA NACIÓN",
+        "publicIdentifier": "n%C3%A9stor-fabi%C3%A1n-migueliz-13205916",
+        "linkedinUrl": "https://www.linkedin.com/in/n%C3%A9stor-fabi%C3%A1n-migueliz-13205916"
       },
       {
-        "id": "ACoAADLmdkkB0jw7k6wV9VMd9nBM2BC6h9Faujw",
-        "firstName": "Khushi",
-        "lastName": "Shetty",
-        "publicIdentifier": "khushishetty",
-        "linkedinUrl": "https://www.linkedin.com/in/khushishetty"
+        "id": "ACoAAGVlt60Bu1DDhR4_Xi2msgwgHVj1IszIhTI",
+        "firstName": "Gustavo",
+        "lastName": "Lema",
+        "position": "--",
+        "publicIdentifier": "gustavo-lema-5798723b5",
+        "linkedinUrl": "https://www.linkedin.com/in/gustavo-lema-5798723b5"
       },
       {
-        "id": "ACoAADx72mgB9uXOAnADi3v8Ojaq19ThUirfcTY",
-        "firstName": "Chinmay",
-        "lastName": "Gadre",
-        "position": "Software Developer | ex-Researchify.io | Specialist @Codeforces | IIT(BHU)’24",
-        "publicIdentifier": "chinmay-gadre-574a07243",
-        "linkedinUrl": "https://www.linkedin.com/in/chinmay-gadre-574a07243"
+        "id": "ACoAAAX2gm0BWEpw7pR7NcNi0g9ecjq9a8A0SIY",
+        "firstName": "Javier",
+        "lastName": "Santos",
+        "position": "Gerente de prestaciones medicas de la OSFE",
+        "publicIdentifier": "javier-santos-35160629",
+        "linkedinUrl": "https://www.linkedin.com/in/javier-santos-35160629"
       },
       {
-        "id": "ACoAACBx3v8BMY3U4FHlUwb_ePUMOfMhKl1vQpo",
-        "firstName": "Abbas",
-        "lastName": "Shmaysani",
-        "position": "Data Engineer | Product Owner at SCOR",
-        "publicIdentifier": "abbas-shmaysani-a27367132",
-        "linkedinUrl": "https://www.linkedin.com/in/abbas-shmaysani-a27367132"
+        "id": "ACoAADYHjQAB5IahtACeAUKFB6VMQCJ32Sg8txA",
+        "firstName": "Municipalidad",
+        "lastName": "San Antonio de Areco",
+        "position": "Consultor de empleo en Municipalidad de San Antonio de Areco",
+        "publicIdentifier": "municipalidad-san-antonio-de-areco-4546a6213",
+        "linkedinUrl": "https://www.linkedin.com/in/municipalidad-san-antonio-de-areco-4546a6213"
       },
       {
-        "id": "ACoAACVD7LoBaZF9NuSdQQYmY88fNdXA6KztEdM",
-        "firstName": "haifa",
-        "lastName": "baccari",
-        "position": "Software engineer at SCOR",
-        "publicIdentifier": "haifa-baccari-58a46a155",
-        "linkedinUrl": "https://www.linkedin.com/in/haifa-baccari-58a46a155"
+        "id": "ACoAAAXq0RYBugOdnKMtfDeB9z5V3BAGJsIrKHM",
+        "firstName": "Ezequiel",
+        "lastName": "Luppi",
+        "position": "Consejo de la Magistratura de la Ciudad de Buenos Aires",
+        "publicIdentifier": "ezequiel-luppi-9b22b629",
+        "linkedinUrl": "https://www.linkedin.com/in/ezequiel-luppi-9b22b629"
       },
       {
-        "id": "ACoAACENuCwBAbQakChqdOpxk7K4YIpbVBzCC4w",
-        "firstName": "Shashank",
-        "lastName": "Vaidya",
-        "position": "AI Engineer at SNCF Réseau | \nLLMs | RL | spaCy | PyTorch | LangChain, LangGraph | AWS |",
-        "publicIdentifier": "shashank-py",
-        "linkedinUrl": "https://www.linkedin.com/in/shashank-py"
+        "id": "ACoAAAKPLiQBIhuYUg7ac2wUcmFp-HhZyuRyeOc",
+        "firstName": "Agostina",
+        "lastName": "Covini",
+        "position": "Gerente de RRHH en Arsat",
+        "publicIdentifier": "agostina-covini-39846812",
+        "linkedinUrl": "https://www.linkedin.com/in/agostina-covini-39846812"
       },
       {
-        "id": "ACoAADhL9toBjEQo_MLB48Ay7sRv7eRliSM6984",
-        "firstName": "Anh Vu",
-        "lastName": "Bui",
-        "position": "Postgraduate student at EPITA | Specializing in Master of Software Engineering | Looking for internship | C/C++ | C# | Python | Java | Spring Boot | Hibernate | Unity3D | AWS | Jenkins | MySQL | ReactJS | NodeJS",
-        "publicIdentifier": "anh-vu-bui-10a38b224",
-        "linkedinUrl": "https://www.linkedin.com/in/anh-vu-bui-10a38b224"
+        "id": "ACoAAFSwjEQBUvpQ7ZibWyIPXy6FfN9NGHOK1RE",
+        "firstName": "Patricio",
+        "lastName": "Amadeo Cetrangolo",
+        "position": "Abogado Previsional - Magister en Dirección de Recursos Humanos (CHRO)",
+        "publicIdentifier": "patricioamadeocetrangolo",
+        "linkedinUrl": "https://www.linkedin.com/in/patricioamadeocetrangolo"
       },
       {
-        "id": "ACoAABdP1-YBSLkZq6iyk4Obgh-Bx9RJ3tVyzPs",
-        "firstName": "Mouleeswaran",
-        "lastName": "Ganapathi",
-        "position": "Full stack developer",
-        "publicIdentifier": "mouleeswaranganapathi",
-        "linkedinUrl": "https://www.linkedin.com/in/mouleeswaranganapathi"
+        "id": "ACoAAGSnOJkB7FnakcnY87pg6OHd3lov3YdRUj0",
+        "firstName": "CACI",
+        "lastName": "Colegio Argentino de Cardioangiologos",
+        "position": "Colegio Argentino de Cardioangiólogos Intervencionistas",
+        "publicIdentifier": "colegio-caci",
+        "linkedinUrl": "https://www.linkedin.com/in/colegio-caci"
+      }
+    ],
+    "sectionTotals": {
+      "experience": 5,
+      "education": 4,
+      "certifications": 14,
+      "receivedRecommendations": 1,
+      "skills": 73,
+      "courses": 0,
+      "languages": 2,
+      "projects": 8,
+      "volunteering": 0,
+      "publications": 0,
+      "patents": 0,
+      "organizations": 0,
+      "honorsAndAwards": 0,
+      "causes": 0
+    },
+    "interests": [
+      {
+        "interestName": "Companies",
+        "elements": [
+          {
+            "title": "Microsoft",
+            "subtitle": null,
+            "link": "https://www.linkedin.com/company/1035/",
+            "caption": "29,248,198 followers",
+            "image": {
+              "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1793232000&v=beta&t=-G3KTWbySWNRDLM-7_sSgY3V09nqPA0Iswoptltp6cs"
+            }
+          },
+          {
+            "title": "Tata Consultancy Services",
+            "subtitle": null,
+            "link": "https://www.linkedin.com/company/1353/",
+            "caption": "19,640,476 followers",
+            "image": {
+              "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGsGR9p4ikS5w/company-logo_400_400/company-logo_400_400/0/1708946550425/tata_consultancy_services_logo?e=1793232000&v=beta&t=pyfE2MCnhU6l8mUOkIpoE2ytL6QXykaJ_aEA7ISyx9A"
+            }
+          }
+        ]
+      },
+      {
+        "interestName": "Groups",
+        "elements": [
+          {
+            "title": "EPITA International Alumni Network",
+            "subtitle": null,
+            "link": "https://www.linkedin.com/groups/12852099",
+            "caption": "326 members",
+            "image": {
+              "url": "https://media.licdn.com/dms/image/v2/D4E07AQF0Zcw_swj0rA/group-logo_image-shrink_400x400/group-logo_image-shrink_400x400/0/1686059575466?e=1791997200&v=beta&t=zeu4C7pt6PC0HbQyYRS2FfvgRqBSnTizCQI44ktlgWA"
+            }
+          },
+          {
+            "title": "The Sparks Foundation Network",
+            "subtitle": null,
+            "link": "https://www.linkedin.com/groups/10379184",
+            "caption": "243,257 members",
+            "image": {
+              "url": "https://media.licdn.com/dms/image/v2/C5107AQH9Au8gu60x3g/group-logo_image-shrink_92x92/group-logo_image-shrink_92x92/0/1538060109653?e=1791997200&v=beta&t=9fvTx5NnlPnfKsRNEBLEep1MwkpTTAz2W-41qP88S3w"
+            }
+          }
+        ]
+      },
+      {
+        "interestName": "Newsletters",
+        "elements": [
+          {
+            "title": "Upskilling Courses",
+            "subtitle": "Upskilling Courses",
+            "link": "https://www.linkedin.com/newsletters/7272647512501428224",
+            "caption": "Published weekly",
+            "image": {
+              "url": "https://media.licdn.com/dms/image/v2/D4D12AQFkWJneR8TrOA/series-logo_image-shrink_300_300/series-logo_image-shrink_300_300/0/1736002634578?e=1793232000&v=beta&t=mcbNU_rq1KrJqczomwBq9M-dA9RwJSZcIH2PijFfOEk"
+            }
+          },
+          {
+            "title": "Artefact Research Center News",
+            "subtitle": "Updates on our fully open-source AI research, focused on advancing AI & making ML models more accessible for businesses.",
+            "link": "https://www.linkedin.com/newsletters/7306291899865198593",
+            "caption": "Published monthly",
+            "image": {
+              "url": "https://media.licdn.com/dms/image/v2/D4E12AQEscHP3qxEBQQ/series-logo_image-shrink_300_300/B4EZWUojj0HUAQ-/0/1741955415244?e=1793232000&v=beta&t=Iw0NVIcxd3B3MNadXO0aqIP5QsRIIRfEo9M5KkD5Q84"
+            }
+          }
+        ]
+      },
+      {
+        "interestName": "Schools",
+        "elements": [
+          {
+            "title": "EPITA: Ecole d'Ingénieurs en Informatique",
+            "subtitle": null,
+            "link": "https://www.linkedin.com/school/15106487/",
+            "caption": "41,145 followers",
+            "image": {
+              "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEpmyn_pnI1Ug/company-logo_400_400/B4EZ6YSYUbJIAU-/0/1780671415887/epita_ecole_ingenieurs_informatique_logo?e=1793232000&v=beta&t=6kdC32ujQVDuoJQWvGa7t8GGf5_MLFACuFk029Vowyk"
+            }
+          },
+          {
+            "title": "University of Mumbai",
+            "subtitle": null,
+            "link": "https://www.linkedin.com/school/15093732/",
+            "caption": "1,178,844 followers",
+            "image": {
+              "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGsu_DimiqUow/company-logo_400_400/company-logo_400_400/0/1631357817785?e=1793232000&v=beta&t=ye-ZAa-OPdSLVt9r8yhydaFlB9KjgDo_H04WkSmha2w"
+            }
+          }
+        ]
       }
     ],
     "originalQuery": {
-      "query": "https://www.linkedin.com/in/chaitanya-malani/"
+      "query": "https://www.linkedin.com/in/chaitanya-malani"
     }
   }
 ]

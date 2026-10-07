@@ -10,8 +10,9 @@
 4. The LLM uses two tools — `record_user_details` and `record_unknown_question` — to send real-time notifications to a Slack channel.
 5. The chat UI is built with [Gradio](https://gradio.app) and can be embedded on any website.
 6. The bot stays in character using your LinkedIn profile as its knowledge base.
-7. When a visitor shares their email, a Slack channel notification fires instantly.
-8. Questions the bot can't answer are also sent to Slack.
+7. Questions the bot can't answer are sent to Slack immediately, before asking the visitor for contact details.
+8. The bot then offers a follow-up. If the visitor shares their email, a second Slack notification includes both their details and the unanswered question.
+9. The system prompt includes today's date and interprets dated LinkedIn entries relative to it, avoiding stale claims that past work or education is still current.
 
 ---
 

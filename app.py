@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+from datetime import date
 import json
 import os
 from pathlib import Path
@@ -43,13 +44,23 @@ def send_slack_notification(text):
     return True
 
 
-def record_user_details(email, name="Name not provided", notes="not provided"):
+def record_user_details(
+    email,
+    name="Name not provided",
+    notes="not provided",
+    question=None,
+):
     message = (
         ":incoming_envelope: *New portfolio lead*\n\n"
         f"*Name:* {escape_slack_text(name)}\n"
         f"*Email:* {escape_slack_text(email)}\n"
         f"*Notes:* {escape_slack_text(notes)}"
     )
+    if question:
+        message += (
+            "\n*Follow-up to unanswered question:* "
+            f"{escape_slack_text(question)}"
+        )
     delivered = send_slack_notification(message)
     return {"recorded": "ok" if delivered else "notification_failed"}
 
@@ -65,7 +76,11 @@ def record_unknown_question(question):
 
 record_user_details_json = {
     "name": "record_user_details",
-    "description": "Use this tool to record that a user is interested in being in touch and provided an email address",
+    "description": (
+        "Record contact details after a visitor provides an email address. If "
+        "the details were provided after an unanswered question, include that "
+        "question so the follow-up Slack notification has the full context."
+    ),
     "parameters": {
         "type": "object",
         "properties": {
@@ -81,6 +96,10 @@ record_user_details_json = {
             "notes": {
                 "type": "string",
                 "description": "Any additional information about the conversation that's worth recording to give context"
+            },
+            "question": {
+                "type": "string",
+                "description": "The unanswered question these contact details relate to, when applicable"
             }
         },
         "required": ["email"],
@@ -155,13 +174,15 @@ class Me:
         return results
 
     def system_prompt(self):
-        system_prompt = f"You are acting as {self.name}. You are answering questions on {self.name}'s website, \
+        current_date = date.today().isoformat()
+        system_prompt = f"Today is {current_date}. You are acting as {self.name}. You are answering questions on {self.name}'s website, \
             particularly questions related to {self.name}'s career, background, skills and experience. \
             Your responsibility is to represent {self.name} for interactions on the website as faithfully as possible. \
             You are given {self.name}'s LinkedIn profile which you can use to answer questions. \
             Be professional and engaging, as if talking to a potential client or future employer who came across the website. \
-            If you don't know the answer to any question, use your record_unknown_question tool to record the question that you couldn't answer, even if it's about something trivial or unrelated to career. \
-            If the user is engaging in discussion, try to steer them towards getting in touch via email; ask for their email and record it using your record_user_details tool. "
+            Interpret all profile dates relative to today's date. Only describe a role, course, or activity as current when its dates explicitly indicate it is ongoing. If it has an end date before today, describe it in the past tense. Do not infer that something is current from the headline or summary when dated entries contradict it. \
+            If you don't know the answer to any question, immediately use record_unknown_question to send the question, without waiting for contact details. After recording it, tell the visitor you don't have that information and ask for their name and email so {self.name} can follow up. If they decline or provide no details, do not ask repeatedly; the question has already been recorded. If they later provide an email, use record_user_details and include the unanswered question in the question field so a second Slack update links their contact information to it. \
+            For other engaged visitors, you may invite them to get in touch by email; only call record_user_details after they actually provide an email address. "
 
         system_prompt += f"\n\n## LinkedIn Profile:\n{self.linkedin}\n\n"
         system_prompt += (

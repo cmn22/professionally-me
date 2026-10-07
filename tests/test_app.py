@@ -69,6 +69,40 @@ class ChatTests(unittest.TestCase):
         self.assertEqual(result, "Hello from the model.")
         self.assertEqual(client.calls[0]["messages"][-1]["content"], "Hello")
 
+    def test_system_prompt_is_date_aware_and_requires_two_stage_followup(self):
+        client = FakeLLMClient([])
+        with TemporaryDirectory() as temp_dir:
+            me = self.make_me(temp_dir, client)
+            prompt = me.system_prompt()
+
+        self.assertIn("Today is ", prompt)
+        self.assertIn("Only describe a role, course, or activity as current", prompt)
+        self.assertIn("without waiting for contact details", prompt)
+        self.assertIn("a second Slack update", prompt)
+
+    def test_contact_tool_accepts_unanswered_question_context(self):
+        client = FakeLLMClient([])
+        with TemporaryDirectory() as temp_dir, patch(
+            "app.record_user_details", return_value={"recorded": "ok"}
+        ) as tool:
+            me = self.make_me(temp_dir, client)
+            me.handle_tool_call([{
+                "id": "call-2",
+                "type": "function",
+                "function": {
+                    "name": "record_user_details",
+                    "arguments": json.dumps({
+                        "email": "visitor@example.com",
+                        "question": "Unknown?",
+                    }),
+                },
+            }])
+
+        tool.assert_called_once_with(
+            email="visitor@example.com",
+            question="Unknown?",
+        )
+
     def test_executes_tool_and_returns_followup(self):
         client = FakeLLMClient([
             {
@@ -162,6 +196,22 @@ class SlackNotificationTests(unittest.TestCase):
             "*Name:* Visitor &lt;!channel&gt;\n"
             "*Email:* visitor@example.com\n"
             "*Notes:* Interested in R&amp;D"
+        )
+
+    @patch("app.send_slack_notification", return_value=True)
+    def test_links_contact_notification_to_unanswered_question(self, send):
+        result = record_user_details(
+            "visitor@example.com",
+            question="What is the <secret> project?",
+        )
+
+        self.assertEqual(result, {"recorded": "ok"})
+        send.assert_called_once_with(
+            ":incoming_envelope: *New portfolio lead*\n\n"
+            "*Name:* Name not provided\n"
+            "*Email:* visitor@example.com\n"
+            "*Notes:* not provided\n"
+            "*Follow-up to unanswered question:* What is the &lt;secret&gt; project?"
         )
 
     @patch("app.send_slack_notification", return_value=False)

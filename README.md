@@ -1,3 +1,13 @@
+---
+title: Professionally Me
+emoji: 💼
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 5.33.0
+app_file: app.py
+---
+
 # Professionally Me
 
 **Professionally Me** is a personal career chatbot that impersonates you on your website. It answers questions about your background, skills, and experience, steers visitors toward leaving their contact details, and logs any unanswerable questions.
